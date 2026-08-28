@@ -111,14 +111,29 @@
               id="9158dba4-6262-4807-bfed-803e75fd17c6" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="ea1e62f2-3d4a-4c5a-9ae8-414fd832d976" description="Off-board capability to monitor machine usage, location, and productivity data via VisionLink."
-            name="Track Machine Telematics"/>
+            id="ea1e62f2-3d4a-4c5a-9ae8-414fd832d976" name="Track Machine Telematics"
+            description="Off-board capability to monitor machine usage, location, and productivity data via VisionLink.">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="5459a86e-3742-48b7-81bc-b565128b83c2" involved="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="16badc41-1546-4e7c-a221-8bcc16789ed3" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
+        </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="f7b672d2-0ae1-4e2a-98bd-46ee5d446378" description="Off-board capability to deploy machine software updates remotely (Remote Flash) without an on-site technician visit."
-            name="Push Remote Software Update"/>
+            id="f7b672d2-0ae1-4e2a-98bd-46ee5d446378" name="Push Remote Software Update"
+            description="Off-board capability to deploy machine software updates remotely (Remote Flash) without an on-site technician visit.">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="25853971-9103-442d-998e-fa538d0139c1" involved="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="e7ad9de8-18f8-402b-9cb2-7ac7a7bd4138" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
+        </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="6cedc8f5-2a27-4a06-97a8-6d90bfadd05b" description="Off-board capability for a dealer/support role to run diagnostic tests on the machine remotely and identify issues before dispatching a technician."
-            name="Perform Remote Troubleshooting"/>
+            id="6cedc8f5-2a27-4a06-97a8-6d90bfadd05b" name="Perform Remote Troubleshooting"
+            description="Off-board capability for a dealer/support role to run diagnostic tests on the machine remotely and identify issues before dispatching a technician.">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="1d78ae19-a22d-4505-a870-cc089d70733c" involved="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="acea56b0-2c89-4982-8bd3-00f5ee19145d" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="2a261ee7-02c8-4496-96b1-d7b029a45bc7" name="Interfaces"/>
