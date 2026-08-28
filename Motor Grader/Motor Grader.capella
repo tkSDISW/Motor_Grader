@@ -110,6 +110,15 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="9158dba4-6262-4807-bfed-803e75fd17c6" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ea1e62f2-3d4a-4c5a-9ae8-414fd832d976" description="Off-board capability to monitor machine usage, location, and productivity data via VisionLink."
+            name="Track Machine Telematics"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="f7b672d2-0ae1-4e2a-98bd-46ee5d446378" description="Off-board capability to deploy machine software updates remotely (Remote Flash) without an on-site technician visit."
+            name="Push Remote Software Update"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="6cedc8f5-2a27-4a06-97a8-6d90bfadd05b" description="Off-board capability for a dealer/support role to run diagnostic tests on the machine remotely and identify issues before dispatching a technician."
+            name="Perform Remote Troubleshooting"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="2a261ee7-02c8-4496-96b1-d7b029a45bc7" name="Interfaces"/>
