@@ -60,6 +60,8 @@
               id="50a84dec-9315-483a-a61a-812a9f177dc2" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="ed76b389-5a95-474d-90cb-d2968fbc0511" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f176a527-1a0f-4cea-8fd3-b16a7542b04a" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="052b7b2e-48fe-4a72-920e-105bda1b4604" name="Shape Slope" description="Shape and maintain slopes adjacent to the roadway.">
@@ -67,6 +69,8 @@
               id="66d69746-9cfb-4fca-9ab2-13c0223ecf9c" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="39ff113f-6a6a-423a-9a6f-8e1b4d7c8d09" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="edb58c70-136e-4351-a4be-9b0e6462d506" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="cecc8bd6-96b8-4bf5-9a21-aeba8cfb387f" name="Rip and Scarify Hardened Ground"
@@ -75,6 +79,8 @@
               id="cba0f49c-8c83-4085-90f5-65ba41465503" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="7fd8e04c-e80c-4a46-9b2b-464ce55b8b17" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="73ccaa13-3f0c-485c-9850-f68ac56c8ce0" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="0f283773-de70-40ad-a0a0-79906b77b977" name="Clear Snow" description="Clear snow from road surfaces using a snow wing attachment.">
@@ -82,6 +88,8 @@
               id="3b46c5b5-f7e6-4fc0-bca8-f6ec53b9495c" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="9f509a35-35eb-4fd7-b926-2e1af176379a" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="228a5e64-1237-4ba4-beb4-40fd6e240c91" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="1367d4b5-4b33-40a6-b263-d8ed543f19d9" name="Monitor Fleet Remotely"
@@ -90,6 +98,8 @@
               id="d29f6232-d602-4849-9847-e02ca0d5b4fb" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="eac6dd76-9aaa-472f-b267-a39922a2726d" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="0497b966-e258-4ecd-b480-c7da6b05c0ad" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="e3e04c63-b6fa-4dfa-a63e-590d7e054568" name="Support Servicing">
@@ -97,6 +107,8 @@
               id="10632d84-bbfc-4c5a-a21e-9aca1a5ac653" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="61a32a21-48f5-4afa-8c16-351a6dedcfc9" involved="#4d29de11-fa81-4002-bc8f-b409520d7853"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="9158dba4-6262-4807-bfed-803e75fd17c6" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"

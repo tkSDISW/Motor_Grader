@@ -23,7 +23,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_RW1m4KJ_EfG76dNMCCyxxQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FFeXYKKJEfG76dNMCCyxxQ" name="[OCB] Operational Capabilities" repPath="#_FFaF8KKJEfG76dNMCCyxxQ" changeId="1787884879563">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FFeXYKKJEfG76dNMCCyxxQ" name="[OCB] Operational Capabilities" repPath="#_FFaF8KKJEfG76dNMCCyxxQ" changeId="1787885000864">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Motor%20Grader.capella#44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd"/>
       </ownedRepresentationDescriptors>
@@ -109,15 +109,6 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_N0mqsaKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0mqsqKJEfG76dNMCCyxxQ" x="1040" y="296"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_N0mqt6KJEfG76dNMCCyxxQ" type="2002" element="_N0brlKKJEfG76dNMCCyxxQ">
-          <children xmi:type="notation:Node" xmi:id="_N0mquqKJEfG76dNMCCyxxQ" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_N0mqu6KJEfG76dNMCCyxxQ" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_N0mqvKKJEfG76dNMCCyxxQ"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_N0mqvaKJEfG76dNMCCyxxQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_N0mquKKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0mquaKJEfG76dNMCCyxxQ" x="150" y="280"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_QL6gUKKJEfG76dNMCCyxxQ" type="2002" element="_QLzyoKKJEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_QL7HYKKJEfG76dNMCCyxxQ" type="5006"/>
@@ -471,17 +462,6 @@
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_N0brkqKJEfG76dNMCCyxxQ" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_N0brlKKJEfG76dNMCCyxxQ" name="Worksite Environment">
-      <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_N0brlaKJEfG76dNMCCyxxQ" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
