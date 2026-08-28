@@ -46,7 +46,26 @@
             id="f7b48662-7d09-40f2-8eb9-14675f753082" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd" name="Operational Capabilities"/>
+          id="44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="fce20ebb-480f-4089-945d-d3667cbb02fe" description="Achieve and maintain a graded, level road surface."
+            name="Grade Road Surface"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="327f1c93-9624-4eae-8369-2f0eacb5493a" description="Shape and maintain road shoulders."
+            name="Shape Shoulder"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="052b7b2e-48fe-4a72-920e-105bda1b4604" description="Shape and maintain slopes adjacent to the roadway."
+            name="Shape Slope"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="cecc8bd6-96b8-4bf5-9a21-aeba8cfb387f" description="Break up hardened or compacted ground ahead of grading."
+            name="Rip and Scarify Hardened Ground"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="0f283773-de70-40ad-a0a0-79906b77b977" description="Clear snow from road surfaces using a snow wing attachment."
+            name="Clear Snow"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="1367d4b5-4b33-40a6-b263-d8ed543f19d9" description="Off-board capability to monitor machine telematics, push software updates, and remotely troubleshoot issues (VisionLink / Remote Flash / Remote Troubleshooting)."
+            name="Monitor Fleet Remotely"/>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="2a261ee7-02c8-4496-96b1-d7b029a45bc7" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -54,7 +73,28 @@
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="b46db824-76ec-468c-8070-a03988e46643"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="c877a4c2-f4df-46a7-8872-7f6286fac777"
-          name="Operational Entities"/>
+          name="Operational Entities">
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="66dad51e-dcff-4115-b1d1-f13aaa2f1291"
+            description="Operational actor - the human operator who controls the motor grader from the cab (blade control, steering, throttle)."
+            name="Grader Operator"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="19ce363e-fa0a-4795-bac8-00c83d3a6e9d"
+            description="Operational actor - off-board role responsible for fleet monitoring and remote support (VisionLink telematics, Remote Flash software updates, Remote Troubleshooting)."
+            name="Fleet Manager"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4d29de11-fa81-4002-bc8f-b409520d7853"
+            description="Operational entity - the organization tasked with maintaining roads, shoulders, and slopes; owns the mission of using this machine."
+            name="Road Maintenance Organization"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"
+            description="Operational entity - represents the road, terrain, and site conditions the grader operates within (surface type, hardened ground, snow, slope)."
+            name="Worksite Environment"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8e0e319e-a49d-4c57-a2c4-8a7f9ba00742"
+            name="Grader Operator" abstractType="#66dad51e-dcff-4115-b1d1-f13aaa2f1291"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fceba729-cf2b-493a-bab1-a2227d764ea4"
+            name="Fleet Manager" abstractType="#19ce363e-fa0a-4795-bac8-00c83d3a6e9d"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="15fb4c63-c048-4796-b839-a336f7592c45"
+            name="Road Maintenance Organization" abstractType="#4d29de11-fa81-4002-bc8f-b409520d7853"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2bf4c79f-d58f-4871-a2c1-101c82dca004"
+            name="Worksite Environment" abstractType="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
+      </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="5959e73c-3a2e-4ac0-9037-341c536013ff" name="System Analysis">
