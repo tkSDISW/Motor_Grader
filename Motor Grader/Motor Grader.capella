@@ -49,11 +49,13 @@
               id="6b0e45e0-cd6f-4aa2-8dd4-24cb5d49ca7c" name="Track Machine Telematics">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="e4739f77-9175-4a92-9438-d50602be97e7" involved="#6ab1a825-040c-4ebb-bf37-e66a7a49e76c"
-                source="#e0985089-cd12-4a52-9494-42967c0b0fd1" target="#df9d6c63-d4e4-4990-8f03-74c5e1c2b222"/>
+                source="#df9d6c63-d4e4-4990-8f03-74c5e1c2b222" target="#e0985089-cd12-4a52-9494-42967c0b0fd1"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="df9d6c63-d4e4-4990-8f03-74c5e1c2b222" involved="#92fa527e-625c-4dc4-b585-98788943c7bc"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="e0985089-cd12-4a52-9494-42967c0b0fd1" involved="#73ec6ea5-e8c7-476a-b032-256015440253"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="925d353f-9445-4adb-8b51-7dc01f93ec49" involved="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="35d09e28-4797-4f30-895a-30e101806d4d" name="Push Remote Software Updates">
@@ -340,8 +342,8 @@
               id="e685f362-0cdd-470e-a5c1-1ad4e88ab263" name="Interaction 19" target="#95e7df86-c6fa-46b0-a804-0cc0297df268"
               source="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Interaction 20" target="#92fa527e-625c-4dc4-b585-98788943c7bc"
-              source="#73ec6ea5-e8c7-476a-b032-256015440253"/>
+              id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Interaction 20" target="#73ec6ea5-e8c7-476a-b032-256015440253"
+              source="#92fa527e-625c-4dc4-b585-98788943c7bc"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="ccefba30-dd6d-4849-a516-76f2ecf1f934" name="Blade Position Feedback"
               target="#3bfd224b-87a1-4396-873a-1b853faa62e5" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
