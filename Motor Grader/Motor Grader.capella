@@ -273,24 +273,24 @@
               id="49176dc9-9528-4eb3-b4f5-e78ecde98960" name="Service Motor Grader"
               description="Road Maintenance Organization activity - schedule and perform servicing/maintenance on the motor grader. Realizes the &amp;#x27;Support Servicing&amp;#x27; operational capability."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="73fa08ba-12bc-415a-81ea-4bc9273f4c0e" name="Accept Service"/>
+              id="73fa08ba-12bc-415a-81ea-4bc9273f4c0e" name="Accept Service Request"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="63c60c6a-b275-4132-a4fb-740e39be3618" name="Accept Modification"/>
+              id="63c60c6a-b275-4132-a4fb-740e39be3618" name="Accept Blade Position Adjustment"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="92fa527e-625c-4dc4-b585-98788943c7bc" name="Deliver Telematics"/>
+              id="92fa527e-625c-4dc4-b585-98788943c7bc" name="Deliver Machine Telematics Data"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="95e7df86-c6fa-46b0-a804-0cc0297df268" name="Recieve Software"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" name="Provide Diagonostic Data"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="2a22ef3f-3200-4843-9a1e-a90da5a7a138" name="Interaction 1" target="#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"
+              id="2a22ef3f-3200-4843-9a1e-a90da5a7a138" name="Service Request" target="#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"
               source="#49176dc9-9528-4eb3-b4f5-e78ecde98960"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e760c03a-533a-4dd9-8f3e-8a88ea890b9c" name="Interaction 2" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
+              id="e760c03a-533a-4dd9-8f3e-8a88ea890b9c" name="Steering Input" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="db312647-45ff-4a73-b968-7effaf67a9f2" name="Interaction 3" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="db312647-45ff-4a73-b968-7effaf67a9f2" name="Blade Position Input"
+              target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="ae49e26e-91f7-4423-a5d9-1572fb1b250c" name="Interaction 4" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
@@ -316,11 +316,11 @@
               id="18fac8b3-b3c6-4dd0-a99a-b4d41f4f4ebc" name="Interaction 11" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
               source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c" name="Interaction 12" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
-              source="#3bfd224b-87a1-4396-873a-1b853faa62e5"/>
+              id="f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c" name="Grade Deviation Correction"
+              target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#3bfd224b-87a1-4396-873a-1b853faa62e5"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="31f5c871-2218-4c0d-80d8-2545e251132e" name="Interaction 13" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
-              source="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"/>
+              id="31f5c871-2218-4c0d-80d8-2545e251132e" name="Grading Adjustment Command"
+              target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="cdb454a1-3e5e-4afd-aaa3-12fdb7be1cbd" name="Interaction 14" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
               source="#2b1a3143-55fb-4dd1-b46d-177552e3add8"/>
@@ -343,10 +343,10 @@
               id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Interaction 20" target="#92fa527e-625c-4dc4-b585-98788943c7bc"
               source="#73ec6ea5-e8c7-476a-b032-256015440253"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ccefba30-dd6d-4849-a516-76f2ecf1f934" name="Interaction 21" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="ccefba30-dd6d-4849-a516-76f2ecf1f934" name="Blade Position Feedback"
+              target="#3bfd224b-87a1-4396-873a-1b853faa62e5" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="78b377ad-1c72-4cf9-9476-28187c8875dd" name="Interaction 22" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
+              id="78b377ad-1c72-4cf9-9476-28187c8875dd" name="Steering Feedback" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
