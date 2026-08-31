@@ -45,23 +45,22 @@
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="f7b48662-7d09-40f2-8eb9-14675f753082" name="Root Operational Activity">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="0ae677a1-8f21-4d6f-8a8b-c6226885dd6b" description="Grader Operator activity - control machine steering and articulation while grading."
-              name="Steer Machine"/>
+              id="0ae677a1-8f21-4d6f-8a8b-c6226885dd6b" name="Steer Machine" description="Grader Operator activity - control machine steering and articulation while grading."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="5be9843d-46ff-4936-a750-f962ac0ed835" description="Grader Operator activity - adjust moldboard/blade angle, pitch, and depth to achieve desired grade."
-              name="Control Blade Position"/>
+              id="5be9843d-46ff-4936-a750-f962ac0ed835" name="Control Blade Position"
+              description="Grader Operator activity - adjust moldboard/blade angle, pitch, and depth to achieve desired grade."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="3bfd224b-87a1-4396-873a-1b853faa62e5" description="Grader Operator activity - visually and instrumentally monitor grade accuracy during operation (e.g. via Cross Slope Indicate, Digital Blade Slope Meter)."
-              name="Monitor Grade Quality"/>
+              id="3bfd224b-87a1-4396-873a-1b853faa62e5" name="Monitor Grade Quality"
+              description="Grader Operator activity - visually and instrumentally monitor grade accuracy during operation (e.g. via Cross Slope Indicate, Digital Blade Slope Meter)."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="73ec6ea5-e8c7-476a-b032-256015440253" description="Fleet Manager activity - review machine usage, location, and productivity data via VisionLink."
-              name="Monitor Machine Telematics"/>
+              id="73ec6ea5-e8c7-476a-b032-256015440253" name="Monitor Machine Telematics"
+              description="Fleet Manager activity - review machine usage, location, and productivity data via VisionLink."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="824c61ad-9f30-4eb6-bd8a-e74332322c36" description="Fleet Manager activity - push a software update to the machine remotely via Remote Flash."
-              name="Deploy Remote Software Update"/>
+              id="824c61ad-9f30-4eb6-bd8a-e74332322c36" name="Deploy Remote Software Update"
+              description="Fleet Manager activity - push a software update to the machine remotely via Remote Flash."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a" description="Fleet Manager activity - run remote diagnostic checks on the machine to identify issues before dispatching a technician."
-              name="Diagnose Machine Remotely"/>
+              id="cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a" name="Diagnose Machine Remotely"
+              description="Fleet Manager activity - run remote diagnostic checks on the machine to identify issues before dispatching a technician."/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
@@ -173,15 +172,36 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e370ee8b-2eba-46bd-9b67-baa57e259ee2"
             name="Fleet Manager" abstractType="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4d29de11-fa81-4002-bc8f-b409520d7853"
-            name="Road Maintenance Organization" description="Operational entity - the organization tasked with maintaining roads, shoulders, and slopes; owns the mission of using this machine."/>
+            name="Road Maintenance Organization" description="Operational entity - the organization tasked with maintaining roads, shoulders, and slopes; owns the mission of using this machine.">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="64f1093c-8981-4d8e-af13-78b18df9122b" targetElement="#824c61ad-9f30-4eb6-bd8a-e74332322c36"
+              sourceElement="#4d29de11-fa81-4002-bc8f-b409520d7853"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="a44cd13c-01f6-4611-b35f-8bddd32f8fa7" targetElement="#cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a"
+              sourceElement="#4d29de11-fa81-4002-bc8f-b409520d7853"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"
             name="Worksite Environment" description="Operational entity - represents the road, terrain, and site conditions the grader operates within (surface type, hardened ground, snow, slope)."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="2bfd87c5-74dd-417b-af04-2e2ed7afbbba"
             name="Motor Grader"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="b88a52bd-c03e-43d6-bf47-0c93d9c55e33"
-            name="Grader Operator" actor="true" human="true"/>
+            name="Grader Operator" actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="d00b5f2b-2e49-4a63-bfe3-6f335df5b8d4" targetElement="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"
+              sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="95ce3434-72e8-4bdb-9114-364339e31af7" targetElement="#5be9843d-46ff-4936-a750-f962ac0ed835"
+              sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0736a8d5-063e-4ce5-b6ab-847db96f265e" targetElement="#3bfd224b-87a1-4396-873a-1b853faa62e5"
+              sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"
-            name="Fleet Manager" actor="true" human="true"/>
+            name="Fleet Manager" actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="899e8406-e8bf-441a-9ada-4fb16008e183" targetElement="#73ec6ea5-e8c7-476a-b032-256015440253"
+              sourceElement="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
+        </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
