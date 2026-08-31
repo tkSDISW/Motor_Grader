@@ -27,7 +27,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Motor%20Grader.capella#44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zvzpcKVkEfG76dNMCCyxxQ" name="[OAB] Operational Entities" repPath="#_zvuJ4KVkEfG76dNMCCyxxQ" changeId="1788200879101">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zvzpcKVkEfG76dNMCCyxxQ" name="[OAB] Operational Entities" repPath="#_zvuJ4KVkEfG76dNMCCyxxQ" changeId="1788200919729">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Motor%20Grader.capella#c877a4c2-f4df-46a7-8872-7f6286fac777"/>
       </ownedRepresentationDescriptors>
@@ -859,7 +859,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_J2yx46VpEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_J2yK0aVpEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2yK0qVpEfG76dNMCCyxxQ" x="100" y="540" width="253" height="143"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2yK0qVpEfG76dNMCCyxxQ" x="100" y="420" width="223" height="103"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_J2zY8KVpEfG76dNMCCyxxQ" type="2002" element="_J2a-cKVpEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_J2zY86VpEfG76dNMCCyxxQ" type="5006"/>
@@ -868,7 +868,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_J2zY9qVpEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_J2zY8aVpEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2zY8qVpEfG76dNMCCyxxQ" x="100" y="420"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2zY8qVpEfG76dNMCCyxxQ" x="100" y="330"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_J2zY96VpEfG76dNMCCyxxQ" type="2002" element="_J2a-c6VpEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_J2zY-qVpEfG76dNMCCyxxQ" type="5006"/>
@@ -877,7 +877,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_J20AAqVpEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_J2zY-KVpEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2zY-aVpEfG76dNMCCyxxQ" x="680" y="298"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J2zY-aVpEfG76dNMCCyxxQ" x="660" y="130" width="163" height="433"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_K1LFsKVpEfG76dNMCCyxxQ" type="2002" element="_K07OEKVpEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_K1LswKVpEfG76dNMCCyxxQ" type="5006"/>
@@ -919,7 +919,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_K1Lsw6VpEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_K1LFsaVpEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1LFsqVpEfG76dNMCCyxxQ" x="1060" y="180" width="193" height="138"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1LFsqVpEfG76dNMCCyxxQ" x="1050" y="130" width="193" height="138"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_K1LsxKVpEfG76dNMCCyxxQ" type="2002" element="_K07OE6VpEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_K1Lsx6VpEfG76dNMCCyxxQ" type="5006"/>
