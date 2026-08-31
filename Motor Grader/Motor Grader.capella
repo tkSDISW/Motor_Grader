@@ -43,7 +43,26 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="f3ed8d3c-eeb0-425c-b4d0-fabec0f9d127" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-            id="f7b48662-7d09-40f2-8eb9-14675f753082" name="Root Operational Activity"/>
+            id="f7b48662-7d09-40f2-8eb9-14675f753082" name="Root Operational Activity">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="0ae677a1-8f21-4d6f-8a8b-c6226885dd6b" description="Grader Operator activity - control machine steering and articulation while grading."
+              name="Steer Machine"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="5be9843d-46ff-4936-a750-f962ac0ed835" description="Grader Operator activity - adjust moldboard/blade angle, pitch, and depth to achieve desired grade."
+              name="Control Blade Position"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="3bfd224b-87a1-4396-873a-1b853faa62e5" description="Grader Operator activity - visually and instrumentally monitor grade accuracy during operation (e.g. via Cross Slope Indicate, Digital Blade Slope Meter)."
+              name="Monitor Grade Quality"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="73ec6ea5-e8c7-476a-b032-256015440253" description="Fleet Manager activity - review machine usage, location, and productivity data via VisionLink."
+              name="Monitor Machine Telematics"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="824c61ad-9f30-4eb6-bd8a-e74332322c36" description="Fleet Manager activity - push a software update to the machine remotely via Remote Flash."
+              name="Deploy Remote Software Update"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a" description="Fleet Manager activity - run remote diagnostic checks on the machine to identify issues before dispatching a technician."
+              name="Diagnose Machine Remotely"/>
+        </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd" name="Operational Capabilities">
