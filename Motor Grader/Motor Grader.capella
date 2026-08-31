@@ -281,9 +281,9 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="92fa527e-625c-4dc4-b585-98788943c7bc" name="Deliver Machine Telematics Data"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="95e7df86-c6fa-46b0-a804-0cc0297df268" name="Recieve Software"/>
+              id="95e7df86-c6fa-46b0-a804-0cc0297df268" name="Receive Software"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" name="Provide Diagonostic Data"/>
+              id="ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" name="Provide Diagnostic Data"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="2a22ef3f-3200-4843-9a1e-a90da5a7a138" name="Service Request" target="#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"
               source="#49176dc9-9528-4eb3-b4f5-e78ecde98960"/>
@@ -342,7 +342,7 @@
               id="e685f362-0cdd-470e-a5c1-1ad4e88ab263" name="Interaction 19" target="#95e7df86-c6fa-46b0-a804-0cc0297df268"
               source="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Interaction 20" target="#73ec6ea5-e8c7-476a-b032-256015440253"
+              id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Telematics Data" target="#73ec6ea5-e8c7-476a-b032-256015440253"
               source="#92fa527e-625c-4dc4-b585-98788943c7bc"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="ccefba30-dd6d-4849-a516-76f2ecf1f934" name="Blade Position Feedback"
