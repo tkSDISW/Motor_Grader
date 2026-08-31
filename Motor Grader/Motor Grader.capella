@@ -294,29 +294,29 @@
               id="db312647-45ff-4a73-b968-7effaf67a9f2" name="Blade Position Input"
               target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ae49e26e-91f7-4423-a5d9-1572fb1b250c" name="Interaction 4" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
+              id="ae49e26e-91f7-4423-a5d9-1572fb1b250c" name="Steering Input" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="77db5f79-5418-41bf-80d5-e6734f257c9e" name="Interaction 5" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
+              id="77db5f79-5418-41bf-80d5-e6734f257c9e" name="Steering Input" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="68164f1c-78de-4279-b178-9092395ffe14" name="Interaction 6" target="#9a1a171f-416b-4109-b005-156f30e720bd"
+              id="68164f1c-78de-4279-b178-9092395ffe14" name="Steering Input" target="#9a1a171f-416b-4109-b005-156f30e720bd"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="51801b1d-acad-48e1-90d5-e0ee474909ee" name="Interaction 7" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
+              id="51801b1d-acad-48e1-90d5-e0ee474909ee" name="Steering Input" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="b1ef1fe5-4f44-4696-a77c-bcc5ca16e65c" name="Interaction 8" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="b1ef1fe5-4f44-4696-a77c-bcc5ca16e65c" name="Blade Position Input"
+              target="#2b1a3143-55fb-4dd1-b46d-177552e3add8" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="2d410e62-d365-40eb-987f-8ae2cc3428b6" name="Interaction 9" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="2d410e62-d365-40eb-987f-8ae2cc3428b6" name="Blade Position Input"
+              target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="01483894-8e91-4ef5-9a21-471f83fada1d" name="Interaction 10" target="#9a1a171f-416b-4109-b005-156f30e720bd"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="01483894-8e91-4ef5-9a21-471f83fada1d" name="Blade Position Input"
+              target="#9a1a171f-416b-4109-b005-156f30e720bd" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="18fac8b3-b3c6-4dd0-a99a-b4d41f4f4ebc" name="Interaction 11" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
-              source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
+              id="18fac8b3-b3c6-4dd0-a99a-b4d41f4f4ebc" name="Blade Position Input"
+              target="#fb525396-76a6-412b-a6cc-4280cb43396d" source="#5be9843d-46ff-4936-a750-f962ac0ed835"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c" name="Grade Deviation Correction"
               target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#3bfd224b-87a1-4396-873a-1b853faa62e5"/>
@@ -324,23 +324,23 @@
               id="31f5c871-2218-4c0d-80d8-2545e251132e" name="Grading Adjustment Command"
               target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="cdb454a1-3e5e-4afd-aaa3-12fdb7be1cbd" name="Interaction 14" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
-              source="#2b1a3143-55fb-4dd1-b46d-177552e3add8"/>
+              id="cdb454a1-3e5e-4afd-aaa3-12fdb7be1cbd" name="Shoulder Shaping Command"
+              target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#2b1a3143-55fb-4dd1-b46d-177552e3add8"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="dd288fed-12be-472e-b932-d0bf8779b719" name="Interaction 15" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
-              source="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"/>
+              id="dd288fed-12be-472e-b932-d0bf8779b719" name="Slope Shaping Command"
+              target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="9e0a4290-b26d-421e-b3be-2580a00fb626" name="Interaction 16" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
+              id="9e0a4290-b26d-421e-b3be-2580a00fb626" name="Ripping Command" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
               source="#9a1a171f-416b-4109-b005-156f30e720bd"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="070e9670-5493-4799-9347-bbaa22e8bc90" name="Interaction 17" target="#63c60c6a-b275-4132-a4fb-740e39be3618"
-              source="#fb525396-76a6-412b-a6cc-4280cb43396d"/>
+              id="070e9670-5493-4799-9347-bbaa22e8bc90" name="Snow Clearing Command"
+              target="#63c60c6a-b275-4132-a4fb-740e39be3618" source="#fb525396-76a6-412b-a6cc-4280cb43396d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="0fcda4d0-04b8-4c09-a9ad-4d57b411d4be" name="Interaction 18" target="#ebbf2b13-ed59-44e7-9b6f-2edd9c23a905"
-              source="#cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a"/>
+              id="0fcda4d0-04b8-4c09-a9ad-4d57b411d4be" name="Diagnostic Request"
+              target="#ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" source="#cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e685f362-0cdd-470e-a5c1-1ad4e88ab263" name="Interaction 19" target="#95e7df86-c6fa-46b0-a804-0cc0297df268"
-              source="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
+              id="e685f362-0cdd-470e-a5c1-1ad4e88ab263" name="Software Update Package"
+              target="#95e7df86-c6fa-46b0-a804-0cc0297df268" source="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="6ab1a825-040c-4ebb-bf37-e66a7a49e76c" name="Telematics Data" target="#73ec6ea5-e8c7-476a-b032-256015440253"
               source="#92fa527e-625c-4dc4-b585-98788943c7bc"/>
