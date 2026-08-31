@@ -61,6 +61,24 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a" name="Diagnose Machine Remotely"
               description="Fleet Manager activity - run remote diagnostic checks on the machine to identify issues before dispatching a technician."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="736f433e-4a0c-442d-ae21-2f8f01cb64b4" description="Grader Operator activity - perform grading passes to achieve and maintain a level road surface. Realizes the &amp;#x27;Grade Road Surface&amp;#x27; operational capability."
+              name="Grade Road Surface"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="2b1a3143-55fb-4dd1-b46d-177552e3add8" description="Grader Operator activity - shape and maintain road shoulders. Realizes the &amp;#x27;Shape Shoulder&amp;#x27; operational capability."
+              name="Shape Shoulder"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="bb7bcad9-a1e5-41c8-beb0-c45dcfda867e" description="Grader Operator activity - shape and maintain slopes adjacent to the roadway. Realizes the &amp;#x27;Shape Slope&amp;#x27; operational capability."
+              name="Shape Slope"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="9a1a171f-416b-4109-b005-156f30e720bd" description="Grader Operator activity - break up hardened or compacted ground ahead of grading using ripper/scarifier attachment. Realizes the &amp;#x27;Rip and Scarify Hardened Ground&amp;#x27; operational capability."
+              name="Rip and Scarify Hardened Ground"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="fb525396-76a6-412b-a6cc-4280cb43396d" description="Grader Operator activity - clear snow from road surfaces using a snow wing attachment. Realizes the &amp;#x27;Clear Snow&amp;#x27; operational capability."
+              name="Clear Snow"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="49176dc9-9528-4eb3-b4f5-e78ecde98960" description="Road Maintenance Organization activity - schedule and perform servicing/maintenance on the motor grader. Realizes the &amp;#x27;Support Servicing&amp;#x27; operational capability."
+              name="Service Motor Grader"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
