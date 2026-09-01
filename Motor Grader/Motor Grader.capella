@@ -58,7 +58,7 @@
                 id="925d353f-9445-4adb-8b51-7dc01f93ec49" involved="#824c61ad-9f30-4eb6-bd8a-e74332322c36"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="35d09e28-4797-4f30-895a-30e101806d4d" name="Push Remote Software Updates">
+              id="35d09e28-4797-4f30-895a-30e101806d4d" name="Push Remote Software Update">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="fde1fcee-f6c4-4d01-9eea-49bb26f9aac3" involved="#e685f362-0cdd-470e-a5c1-1ad4e88ab263"
                 source="#e9de01de-cfa3-499a-a29d-2bc0e64f07ea" target="#134fa836-5b7d-4596-927a-8dd48583a09d"/>
@@ -78,7 +78,7 @@
                 id="40ef5a0f-ecf5-46aa-9209-7b4b101845e8" involved="#cd572e3f-0eee-4f6c-81a5-8c9c07a30c8a"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="12ae99a5-3938-4905-b7fc-eff1cf1c397a" name="Grader Road Surface">
+              id="12ae99a5-3938-4905-b7fc-eff1cf1c397a" name="Grade Road Surface">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="0b8bcb64-dcf0-4a8f-bdf0-3e43469bfd54" involved="#e760c03a-533a-4dd9-8f3e-8a88ea890b9c"
                 source="#33a097f2-4034-427e-833c-ac0a2e1d9862" target="#0a6a08ba-f04e-4974-b47d-73e69f6a8bc0"/>
@@ -171,7 +171,7 @@
                 source="#613c57a3-37d0-42e2-9ef8-2a8428d7743a" target="#4bdf2af4-9c49-46bd-b2da-acbfdeded7c3"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="1282850f-ac63-489f-b2c3-e7aa2fa1dc9e" name="Rip cad Scarify Hardened Groound ">
+              id="1282850f-ac63-489f-b2c3-e7aa2fa1dc9e" name="Rip and Scarify Hardened Ground">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="b0d981e3-c97d-4a4e-983e-82951c9e8894" involved="#01483894-8e91-4ef5-9a21-471f83fada1d"
                 source="#a35e0bb8-8c3d-49f6-8dce-398819840433" target="#b31460f9-796d-4336-9f77-1248cefd8575"/>
