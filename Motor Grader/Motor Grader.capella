@@ -1996,7 +1996,7 @@
               sourceElement="#d7d1ec12-5329-49fb-a326-a0553171c1d7"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="C 7" source="#912806b8-710c-4e07-b40a-c5cc406c6ff1"
+            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="Direction Control" source="#912806b8-710c-4e07-b40a-c5cc406c6ff1"
             target="#07e6218e-e428-4842-9f5f-451a67e0fac5" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="29d16a9d-340a-4ce2-a8dc-52f221bb2e01" targetElement="#3654fc50-b3d4-4714-a0b0-030d6f249503"
