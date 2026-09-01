@@ -3584,7 +3584,11 @@
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="1d3080a2-780f-4223-9af5-5ba103d0fe82" name="C 10" source="#e8248e94-1633-48c6-9d7c-3601ee593453"
-              target="#1a14b779-dab5-4b1b-8333-d340fd1bab6a" kind="FLOW"/>
+              target="#1a14b779-dab5-4b1b-8333-d340fd1bab6a" kind="FLOW">
+            <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
+                id="d08ffbb4-1475-4c2d-af1c-192ee088d6f2" targetElement="#7f8e44fd-fad9-46e9-ab43-46c91a4cc77b"
+                sourceElement="#1d3080a2-780f-4223-9af5-5ba103d0fe82"/>
+          </ownedComponentExchanges>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8def894f-423c-41fd-8bd3-e83a7c4caff5"
               name="Operator Cabin" abstractType="#f5a146f0-7ee0-4374-b852-9737fa37dd3e"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6bc793c6-ba82-4bf7-bd5c-29514f143e5e"
@@ -3842,7 +3846,11 @@
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="e8248e94-1633-48c6-9d7c-3601ee593453" name="CP 3" orientation="OUT"
-                kind="FLOW"/>
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="6be88fbf-7df6-4d87-af5e-e66a1119e4b7" targetElement="#7bad6a92-4a9b-496b-8456-b06a3abf51d4"
+                  sourceElement="#e8248e94-1633-48c6-9d7c-3601ee593453"/>
+            </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="628ea600-0dcc-4903-ae54-648c3b1359ed" name="Attachment Subsystem"
@@ -3852,7 +3860,11 @@
                 sourceElement="#628ea600-0dcc-4903-ae54-648c3b1359ed"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="1a14b779-dab5-4b1b-8333-d340fd1bab6a" name="CP 1" orientation="IN"
-                kind="FLOW"/>
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="8fe593d2-5d68-4b6d-b968-b6535d1d00bd" targetElement="#41ef47fb-6af0-4817-9797-b6d10b17cf34"
+                  sourceElement="#1a14b779-dab5-4b1b-8333-d340fd1bab6a"/>
+            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="881e614f-c10e-4e10-bfe0-de583a8b9f6c" name="CP 3" orientation="OUT"
                 kind="FLOW">
