@@ -4163,19 +4163,39 @@
               id="378ae3a9-734c-4e1e-a9fa-6f7c125ad10a" name="Engine and Powertrain System"
               description="Cat C7.1/C4.4 engine, powershift transmission, torque converter, and electronic throttle control. Provides power and drive to all other systems (steering, hydraulics, blade actuation)."/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="d67a0ecd-f2e7-478d-9cf3-0e55d26a6e4d" name="Steering System" description="Front axle steering linkage and frame articulation hydraulics, driven by the steering metering pump. Realizes Steer Machine, actuated by commands from the Operator Cabin."/>
+              id="d67a0ecd-f2e7-478d-9cf3-0e55d26a6e4d" name="Steering System" description="Front axle steering linkage and frame articulation hydraulics, driven by the steering metering pump. Realizes Steer Machine, actuated by commands from the Operator Cabin.">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="cfaa8819-c00c-4bcf-9340-2778ddeeb00a" targetElement="#808f0730-7183-4113-a23d-45a8b43fc332"
+                sourceElement="#d67a0ecd-f2e7-478d-9cf3-0e55d26a6e4d"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="8f312bd0-da00-4688-993b-dd5b2136b40f" name="Direction Control System"
-              description="Powershift transmission gear selection (forward/reverse) and F-N-R shifter linkage. Realizes Control Direction of Travel, actuated by commands from the Operator Cabin."/>
+              description="Powershift transmission gear selection (forward/reverse) and F-N-R shifter linkage. Realizes Control Direction of Travel, actuated by commands from the Operator Cabin.">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="c454d0aa-91b8-43a1-86d5-5f1b8f57c940" targetElement="#adb43cbe-d029-4790-86fc-63e0bfa65b52"
+                sourceElement="#8f312bd0-da00-4688-993b-dd5b2136b40f"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="59dd2973-14d8-4a78-a847-9898d534995d" name="Blade Actuation System"
-              description="Drawbar-circle-moldboard mechanism: lift cylinders, circle center shift cylinder, moldboard side-shift cylinder, blade tip cylinder, and circle drive. Realizes Control Blade Position and Accept Blade Position Adjustment."/>
+              description="Drawbar-circle-moldboard mechanism: lift cylinders, circle center shift cylinder, moldboard side-shift cylinder, blade tip cylinder, and circle drive. Realizes Control Blade Position and Accept Blade Position Adjustment.">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="9ce08f78-3b77-488d-a1b4-d362cc7313d2" targetElement="#d768b250-00f2-47aa-b0e9-11064e51a55e"
+                sourceElement="#59dd2973-14d8-4a78-a847-9898d534995d"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="59380b83-cbfd-4006-b7ec-073b9aefa277" name="Grade Control System"
-              description="Cat Grade with Cross Slope Assist: blade-mounted slope sensors, Cross Coupling control logic, and electro-hydraulic valves that make automatic elevation/cross-slope corrections. Realizes Monitor Grade Quality and feeds correction commands to the Blade Actuation System."/>
+              description="Cat Grade with Cross Slope Assist: blade-mounted slope sensors, Cross Coupling control logic, and electro-hydraulic valves that make automatic elevation/cross-slope corrections. Realizes Monitor Grade Quality and feeds correction commands to the Blade Actuation System.">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="a1974151-e454-44bf-9fef-164e6e410cee" targetElement="#b0037d78-58b7-4e6d-865a-123a25c179e8"
+                sourceElement="#59380b83-cbfd-4006-b7ec-073b9aefa277"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="628ea600-0dcc-4903-ae54-648c3b1359ed" name="Attachment Subsystem"
-              description="Ripper/scarifier and snow wing attachments and their hydraulic actuation. Realizes Rip and Scarify Hardened Ground and Clear Snow."/>
+              description="Ripper/scarifier and snow wing attachments and their hydraulic actuation. Realizes Rip and Scarify Hardened Ground and Clear Snow.">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="286af54f-3138-4f1d-882c-d42c68427900" targetElement="#e4394179-115d-47cb-96f3-cf00269f40f8"
+                sourceElement="#628ea600-0dcc-4903-ae54-648c3b1359ed"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="09aca548-6915-42d6-93e7-8aa4aab00230" name="Telematics Module" description="Product Link onboard telematics hardware, feeding VisionLink off-board. Realizes Deliver Machine Telematics Data, Receive Software, and Provide Diagnostic Data.">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -4259,6 +4279,9 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="f8f6d466-46f1-4a92-a07f-1bb00b0172c8" targetElement="#c9b1b52f-0e7d-4d52-9786-5751fd9b24e3"
+              sourceElement="#701afdff-2c42-4549-b7d0-6af1ddea0185"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f75d7e0d-153f-4fcf-9a75-eb5a2d3af24c" targetElement="#890aa6c5-81d5-4335-85eb-aa4075b0b6c2"
               sourceElement="#701afdff-2c42-4549-b7d0-6af1ddea0185"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -4401,6 +4424,9 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="b967dd94-32df-4713-956c-4502eab9cd17" targetElement="#aedb00d0-90aa-4825-8969-6e73f76e59ac"
+              sourceElement="#a55dc07b-b44d-4456-8a47-5048aa897d11"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="89bcd578-48ca-4c6e-b995-cfa923fdb914" targetElement="#56edf3b1-926d-4d2f-a245-a696dbf9da94"
               sourceElement="#a55dc07b-b44d-4456-8a47-5048aa897d11"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
