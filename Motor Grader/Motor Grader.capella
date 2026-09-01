@@ -1952,7 +1952,7 @@
               sourceElement="#13c6241b-fe0f-4040-a27b-3293fdcc8d2c"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="a996c459-7087-4c19-ba6f-cfec1f04e52e" name="[I] Steering Control"
+            id="a996c459-7087-4c19-ba6f-cfec1f04e52e" name="[P] Steering Control"
             source="#9b2e09f1-15ae-4a19-a301-216e68d8e920" target="#0a89efab-90aa-4543-b0cc-0c5601bf70c4"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -1972,7 +1972,7 @@
               sourceElement="#a996c459-7087-4c19-ba6f-cfec1f04e52e"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="d7d1ec12-5329-49fb-a326-a0553171c1d7" name="[I] Blade Position Control"
+            id="d7d1ec12-5329-49fb-a326-a0553171c1d7" name="[P] Blade Position Control"
             source="#ae568d33-87d0-43fa-92d1-5bc614741cb2" target="#5f5fec60-d30a-43fe-a4ab-95a327d22ae1"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -1992,7 +1992,7 @@
               sourceElement="#d7d1ec12-5329-49fb-a326-a0553171c1d7"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="[I] Direction Control"
+            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="[P] Direction Control"
             source="#912806b8-710c-4e07-b40a-c5cc406c6ff1" target="#07e6218e-e428-4842-9f5f-451a67e0fac5"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3441,7 +3441,7 @@
               sourceElement="#2deb811c-4a07-4481-a15a-030b72601545"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="54a7a479-ef67-4501-bdad-4fff172ed8ae" name="[I] Steering Control"
+            id="54a7a479-ef67-4501-bdad-4fff172ed8ae" name="[P] Steering Control"
             source="#c3cec411-dde7-42d4-9d4d-3741dd016c40" target="#0e1462b8-acc0-4c61-98c8-9a2b312ad8ef"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3452,7 +3452,7 @@
               sourceElement="#54a7a479-ef67-4501-bdad-4fff172ed8ae"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="5ca1b4ce-fdb8-4034-acd1-c39ed5355f45" name="[I] Blade Position Control"
+            id="5ca1b4ce-fdb8-4034-acd1-c39ed5355f45" name="[P] Blade Position Control"
             source="#57509469-84a3-4490-b9fc-03efff913200" target="#7e20e311-5682-43b4-8619-cb0e74aea58c"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3463,7 +3463,7 @@
               sourceElement="#5ca1b4ce-fdb8-4034-acd1-c39ed5355f45"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="6b272e34-abfa-4b96-8b3e-f4d1827b64ab" name="[I] Direction Control"
+            id="6b272e34-abfa-4b96-8b3e-f4d1827b64ab" name="[P] Direction Control"
             source="#28e5ff82-edad-48a2-b2be-6373f0bf7c75" target="#6e9cddb6-20b1-42dd-bac6-94a308e484e1"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3595,32 +3595,37 @@
                 sourceElement="#1d3080a2-780f-4223-9af5-5ba103d0fe82"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="7bb75009-0310-4b4b-be52-c86377081f8d" name="C 11" source="#d113acce-b644-4567-b6dc-65fef2cb87c9"
-              target="#ea6a971e-4967-4119-a7dc-09d4f818e99b" kind="FLOW">
+              id="7bb75009-0310-4b4b-be52-c86377081f8d" name="[I] Attachment Status Channel"
+              source="#d113acce-b644-4567-b6dc-65fef2cb87c9" target="#ea6a971e-4967-4119-a7dc-09d4f818e99b"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="5c481f5d-a166-4dd2-be3a-81fe7d6b0c47" targetElement="#59812c39-9917-40dc-8d5e-c2e08e8f340d"
                 sourceElement="#7bb75009-0310-4b4b-be52-c86377081f8d"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="ae1f1dfe-65b9-437c-83c9-e7765a60385a" name="C 12" source="#391a6b09-c2bf-41ba-95d3-ec40b6f88fbe"
-              target="#2d684180-925b-45da-923b-142fba2a38d8" kind="FLOW">
+              id="ae1f1dfe-65b9-437c-83c9-e7765a60385a" name="[I] Moldboard Status Channel"
+              source="#391a6b09-c2bf-41ba-95d3-ec40b6f88fbe" target="#2d684180-925b-45da-923b-142fba2a38d8"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="d67f08ef-081c-42ee-bb30-89701d1f7972" targetElement="#82bfa742-79b2-4d40-869f-afaa0daf53df"
                 sourceElement="#ae1f1dfe-65b9-437c-83c9-e7765a60385a"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="506260e6-b594-4bf6-b9ac-d201965cec49" name="C 13" source="#42b225d4-f27d-4595-ac65-49e05302ae4a"
-              target="#cb1fe509-17c8-49c1-ac19-ab055a386f16" kind="FLOW">
+              id="506260e6-b594-4bf6-b9ac-d201965cec49" name="[I] Hydraulic Status Channel"
+              source="#42b225d4-f27d-4595-ac65-49e05302ae4a" target="#cb1fe509-17c8-49c1-ac19-ab055a386f16"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="2fb9b8b8-112b-435f-a1b5-7b1c98f61ea6" targetElement="#232f2222-7948-473e-ae20-2d41d4dfa749"
                 sourceElement="#506260e6-b594-4bf6-b9ac-d201965cec49"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="a0b3ae8f-8026-415a-bf76-23edc6736c0f" name="C 14" source="#2116552a-adab-4e60-988c-8988d177807e"
-              target="#a92361e9-08de-44a0-9674-bde2a26d58bd" kind="FLOW"/>
+              id="a0b3ae8f-8026-415a-bf76-23edc6736c0f" name="[I] Steering Actuation Status Channel"
+              source="#2116552a-adab-4e60-988c-8988d177807e" target="#a92361e9-08de-44a0-9674-bde2a26d58bd"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="1ee7c777-6565-416b-ade6-eee5284821b2" name="C 15" source="#e28b8207-8597-4be5-80e0-f0d97d6dbdc7"
-              target="#4f3a2036-a8e0-4627-b292-d56bbf92f16e" kind="FLOW">
+              id="1ee7c777-6565-416b-ade6-eee5284821b2" name="[I] Drivetrain Status Channel"
+              source="#e28b8207-8597-4be5-80e0-f0d97d6dbdc7" target="#4f3a2036-a8e0-4627-b292-d56bbf92f16e"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="8c9ed663-cd4b-468c-b35b-fba8eff45abe" targetElement="#a4b9c2a3-f44c-496e-b8bc-520fd63c8468"
                 sourceElement="#1ee7c777-6565-416b-ade6-eee5284821b2"/>
@@ -3629,25 +3634,29 @@
                 sourceElement="#1ee7c777-6565-416b-ade6-eee5284821b2"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="52ab815a-68d6-4cde-8f6b-9f81cb394c26" name="C 16" source="#d348b15c-72f5-40e0-a209-f2ff7fc65863"
-              target="#972ef76a-79cb-4caa-b9da-b45ec7dd31a9" kind="FLOW"/>
+              id="52ab815a-68d6-4cde-8f6b-9f81cb394c26" name="[I] Blade Adjustment Status Channel"
+              source="#d348b15c-72f5-40e0-a209-f2ff7fc65863" target="#972ef76a-79cb-4caa-b9da-b45ec7dd31a9"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="72641507-e474-4f6f-95e4-d874606d39b7" name="C 17" source="#fcc70ff8-eb86-48b8-a27e-7e891a2eea7e"
-              target="#07fd2a95-ac5b-4e5c-b92b-cf965fc75302" kind="FLOW">
+              id="72641507-e474-4f6f-95e4-d874606d39b7" name="[I] Steering Status Channel"
+              source="#fcc70ff8-eb86-48b8-a27e-7e891a2eea7e" target="#07fd2a95-ac5b-4e5c-b92b-cf965fc75302"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="52543d1e-e46e-4182-b7e6-3b0b5ecaf7ed" targetElement="#096d416e-8abd-4053-9667-f392f9a085e5"
                 sourceElement="#72641507-e474-4f6f-95e4-d874606d39b7"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="93679b77-312f-4f8d-a3b6-dbe65c0e604c" name="C 18" source="#e3c0bfc5-86de-4893-84ce-0d0aa4b323c0"
-              target="#7d312806-36d5-449d-98f4-6f0cb932e94e" kind="FLOW">
+              id="93679b77-312f-4f8d-a3b6-dbe65c0e604c" name="[I] Direction Status Channel"
+              source="#e3c0bfc5-86de-4893-84ce-0d0aa4b323c0" target="#7d312806-36d5-449d-98f4-6f0cb932e94e"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="0a46fd0c-3061-40c7-9462-ce56385c4681" targetElement="#57a6f559-af4c-4a25-bff3-121576515d3c"
                 sourceElement="#93679b77-312f-4f8d-a3b6-dbe65c0e604c"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="c837b81b-6d53-470f-bb74-5fca4efdfe24" name="C 19" source="#1b1c1c91-becf-4815-9008-5b9de3dfce0a"
-              target="#7b77cd4c-aaab-4629-9cd2-10472353186b" kind="FLOW">
+              id="c837b81b-6d53-470f-bb74-5fca4efdfe24" name="[I] Operator Command Status Channel"
+              source="#1b1c1c91-becf-4815-9008-5b9de3dfce0a" target="#7b77cd4c-aaab-4629-9cd2-10472353186b"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="cc4c1168-5a1c-47d1-ab5b-39c6dbaf4d48" targetElement="#d05b8fca-5646-4419-ab37-c322a1bc586f"
                 sourceElement="#c837b81b-6d53-470f-bb74-5fca4efdfe24"/>
