@@ -284,6 +284,9 @@
               id="95e7df86-c6fa-46b0-a804-0cc0297df268" name="Receive Software"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" name="Provide Diagnostic Data"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="3040aecb-4f9c-435e-8750-590c61c23645" description="Grader Operator activity - select forward/reverse gear and control direction of travel while grading (9F/6R powershift transmission)."
+              name="Control Direction of Travel"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="2a22ef3f-3200-4843-9a1e-a90da5a7a138" name="Service Request" target="#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"
               source="#49176dc9-9528-4eb3-b4f5-e78ecde98960"/>
