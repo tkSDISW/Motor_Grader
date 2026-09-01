@@ -2870,7 +2870,7 @@
                 id="95f74a75-9dea-4d84-aa06-ac6e7f0aa870" name="FOP 4"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="150e70d9-754b-4cee-86f1-956c9a4941e4" name="Deliver Hydrauling Pressure">
+              id="150e70d9-754b-4cee-86f1-956c9a4941e4" name="Deliver Hydraulic Pressure">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="79a2940d-6c75-4dc2-bd7a-3de83c5741ee" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2912,7 +2912,7 @@
                 id="93ba43a2-fd03-4d31-b987-2642ad06eeb1" name="FOP 3"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="21006ac3-2ecc-4f37-b34c-2bd24756e2f8" name="Suppports subsystems">
+              id="21006ac3-2ecc-4f37-b34c-2bd24756e2f8" name="Supports Subsystems">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="060ca230-672c-4b27-914a-9bca316ecfdb" name="FIP 1"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -3019,92 +3019,92 @@
                 sourceElement="#b9671024-faad-485c-88fd-3828f0e81b9d"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="228b05ee-4ceb-4836-99a1-42942e23a15d" name="FunctionalExchange 29"
-              target="#c58de1b1-2752-42b5-a0f1-4363218900b3" source="#e86910ea-db10-4aae-b0ab-a5d363785183"/>
+              id="228b05ee-4ceb-4836-99a1-42942e23a15d" name="Blade Command" target="#c58de1b1-2752-42b5-a0f1-4363218900b3"
+              source="#e86910ea-db10-4aae-b0ab-a5d363785183"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="fbf3024a-ee29-483a-a5e7-20d050e8a254" name="FunctionalExchange 30"
-              target="#0e2e93ce-7458-4063-9172-942ab957cdc0" source="#b4f09196-b6de-4918-b172-2890b1ce53f2"/>
+              id="fbf3024a-ee29-483a-a5e7-20d050e8a254" name="Direction Command" target="#0e2e93ce-7458-4063-9172-942ab957cdc0"
+              source="#b4f09196-b6de-4918-b172-2890b1ce53f2"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d0abbbfd-a0f5-4d62-85d0-8e6776e76196" name="FunctionalExchange 31"
-              target="#a5a460b3-9792-4903-ac69-30fd24f74212" source="#0e369d26-c0a6-4faa-a457-0e086f68b03b"/>
+              id="d0abbbfd-a0f5-4d62-85d0-8e6776e76196" name="Power Request" target="#a5a460b3-9792-4903-ac69-30fd24f74212"
+              source="#0e369d26-c0a6-4faa-a457-0e086f68b03b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="3cca0f14-3f93-4df4-911a-178eb7c3317d" name="FunctionalExchange 32"
-              target="#9d5f7e5f-77e4-4425-b10d-825344251627" source="#ce768354-32b1-45a8-b382-b8932ac5e78f"/>
+              id="3cca0f14-3f93-4df4-911a-178eb7c3317d" name="Traction Request" target="#9d5f7e5f-77e4-4425-b10d-825344251627"
+              source="#ce768354-32b1-45a8-b382-b8932ac5e78f"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="837cfd70-81c7-49ca-a7e6-2ed662bfad94" name="FunctionalExchange 33"
-              target="#79a2940d-6c75-4dc2-bd7a-3de83c5741ee" source="#0a5c8685-298f-4342-84ef-67f9aca3ea42"/>
+              id="837cfd70-81c7-49ca-a7e6-2ed662bfad94" name="Mechanical Power" target="#79a2940d-6c75-4dc2-bd7a-3de83c5741ee"
+              source="#0a5c8685-298f-4342-84ef-67f9aca3ea42"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="1516e28b-b3de-409f-8f82-b453b0099392" name="FunctionalExchange 34"
+              id="1516e28b-b3de-409f-8f82-b453b0099392" name="Hydraulic Pressure"
               target="#a55688d8-1530-4af9-81bd-519933c36ea1" source="#32e9e3be-013f-42f8-a59c-30ef1c9b7700"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="30c0f267-4a2f-43e5-83c0-f30893be0333" name="FunctionalExchange 35"
+              id="30c0f267-4a2f-43e5-83c0-f30893be0333" name="Hydraulic Pressure"
               target="#1abcaa9e-e348-49fa-9227-5d684637fd14" source="#7159b1c6-e1be-4a08-b9a4-46cb6a9adb17"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="f8d478c4-f597-4d99-88db-3f6aa5c36568" name="FunctionalExchange 36"
+              id="f8d478c4-f597-4d99-88db-3f6aa5c36568" name="Hydraulic Pressure"
               target="#598792b5-aeff-4f87-8666-a4ffeefd0229" source="#953bc119-9849-46d7-8e7a-f8285e59a57d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7253d12f-35e7-4db1-b78c-64b9835bb116" name="FunctionalExchange 37"
+              id="7253d12f-35e7-4db1-b78c-64b9835bb116" name="Moldboard Actuation Command"
               target="#6f4601a7-9c53-4fe5-8a6b-c9d83240a493" source="#865037cc-1d8d-47a0-9f98-af5f0ccd6755"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="022b576a-ba83-448c-9db1-4eed60a7a174" name="FunctionalExchange 38"
+              id="022b576a-ba83-448c-9db1-4eed60a7a174" name="Camber Actuation Command"
               target="#51ed9f81-943f-41c2-9d7a-b71d496b1028" source="#9839f7b7-c899-44ef-97e3-3ecd8e1f7294"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="501b45fa-774b-438c-8dfc-d950686925fb" name="FunctionalExchange 39"
+              id="501b45fa-774b-438c-8dfc-d950686925fb" name="Steering Actuation Command"
               target="#a2138773-251f-4531-95de-82f6e53db09c" source="#8a7f8301-fcc5-4351-9ca7-b460071a6d40"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7af0c490-5e86-4ea3-9228-e39000f793f9" name="FunctionalExchange 40"
+              id="7af0c490-5e86-4ea3-9228-e39000f793f9" name="Camber Actuation Command"
               target="#869bb400-cd16-44ff-95f2-822c7968796f" source="#c2f92608-9c1a-4c97-b757-4b3f99e9eb4a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="650ccf61-742c-4331-8d19-9b91366cc0b7" name="FunctionalExchange 41"
-              target="#1e6d5065-281e-4944-8c9a-b34667a534fa" source="#e198fe5a-6d0b-44a7-9be9-99ff410094ba"/>
+              id="650ccf61-742c-4331-8d19-9b91366cc0b7" name="Direction Input" target="#1e6d5065-281e-4944-8c9a-b34667a534fa"
+              source="#e198fe5a-6d0b-44a7-9be9-99ff410094ba"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="0e5b9107-4695-4c5a-95d2-dc70f077a0c4" name="FunctionalExchange 42"
+              id="0e5b9107-4695-4c5a-95d2-dc70f077a0c4" name="Blade Position Input"
               target="#0083c162-00f7-42d3-a9fc-05315c134a7c" source="#8e97fa0f-36b8-4be8-bdf3-16a57572ddbf"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="b2a8b67f-87b0-4b63-b1b6-1fb113271cbf" name="FunctionalExchange 43"
-              target="#0ef9c2c4-4a40-4e9a-8631-06a1a864b4ee" source="#2f8f1b97-0025-439a-a129-877abadda530"/>
+              id="b2a8b67f-87b0-4b63-b1b6-1fb113271cbf" name="Steering Input" target="#0ef9c2c4-4a40-4e9a-8631-06a1a864b4ee"
+              source="#2f8f1b97-0025-439a-a129-877abadda530"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="c5ab1abf-c085-4419-be7b-c48fbb8dff6d" name="FunctionalExchange 44"
-              target="#22a3d158-9c6e-45ca-b02c-dc4a2f5eff28" source="#ebb81f6d-b743-4bbf-ab90-136be72eb9b4"/>
+              id="c5ab1abf-c085-4419-be7b-c48fbb8dff6d" name="Steering Command" target="#22a3d158-9c6e-45ca-b02c-dc4a2f5eff28"
+              source="#ebb81f6d-b743-4bbf-ab90-136be72eb9b4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d05c85d8-897a-4ca2-983b-f3ecabc82322" name="FunctionalExchange 45"
+              id="d05c85d8-897a-4ca2-983b-f3ecabc82322" name="Hydraulic Pressure"
               target="#f85a65cb-8572-41c4-930d-2f975b541434" source="#267135d7-622d-48eb-8d34-489e6344b3f0"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="57a6f559-af4c-4a25-bff3-121576515d3c" name="FunctionalExchange 46"
-              target="#060ca230-672c-4b27-914a-9bca316ecfdb" source="#e4aecd14-bd08-420e-9249-904c5c416da7"/>
+              id="57a6f559-af4c-4a25-bff3-121576515d3c" name="Direction Status" target="#060ca230-672c-4b27-914a-9bca316ecfdb"
+              source="#e4aecd14-bd08-420e-9249-904c5c416da7"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="11b0c9ad-fc8d-4517-a8a5-70f30466d397" name="FunctionalExchange 47"
+              id="11b0c9ad-fc8d-4517-a8a5-70f30466d397" name="Blade Adjustment Status"
               target="#37b3fb7d-d873-4610-875c-228b9e47b4cb" source="#b8d795b3-2b17-414d-b9b9-be38881a6e12"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d05b8fca-5646-4419-ab37-c322a1bc586f" name="FunctionalExchange 48"
+              id="d05b8fca-5646-4419-ab37-c322a1bc586f" name="Operator Command Status"
               target="#8c9c8f7b-d69d-47f9-a037-fc39f8d17002" source="#95f74a75-9dea-4d84-aa06-ac6e7f0aa870"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="096d416e-8abd-4053-9667-f392f9a085e5" name="FunctionalExchange 49"
-              target="#16f14a92-7fc0-4a1c-94f1-a64dc05795fd" source="#93ba43a2-fd03-4d31-b987-2642ad06eeb1"/>
+              id="096d416e-8abd-4053-9667-f392f9a085e5" name="Steering Status" target="#16f14a92-7fc0-4a1c-94f1-a64dc05795fd"
+              source="#93ba43a2-fd03-4d31-b987-2642ad06eeb1"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="2f8a6fda-4d1d-426a-8789-617a4cce36f3" name="FunctionalExchange 50"
-              target="#3ef23ee2-9a95-4134-af14-13547f747d0b" source="#9354686b-a831-4253-9ff2-129264acf91a"/>
+              id="2f8a6fda-4d1d-426a-8789-617a4cce36f3" name="Telematics Status" target="#3ef23ee2-9a95-4134-af14-13547f747d0b"
+              source="#9354686b-a831-4253-9ff2-129264acf91a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d6ee1059-6c5a-45b8-91a0-ba454885d6a9" name="FunctionalExchange 51"
+              id="d6ee1059-6c5a-45b8-91a0-ba454885d6a9" name="Steering Actuation Status"
               target="#f2780be1-808e-4cbb-931e-878bd886817d" source="#398d7f53-bdf8-4fc8-8cfc-5dfd628f031f"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="3e2db236-1194-4c61-86b7-0b469c38a2e0" name="FunctionalExchange 52"
-              target="#b7368e9b-bfd7-44c9-a4c6-2bb57085036a" source="#c6a44797-90c0-4daf-915c-d3f96992d029"/>
+              id="3e2db236-1194-4c61-86b7-0b469c38a2e0" name="Camber Status" target="#b7368e9b-bfd7-44c9-a4c6-2bb57085036a"
+              source="#c6a44797-90c0-4daf-915c-d3f96992d029"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="232f2222-7948-473e-ae20-2d41d4dfa749" name="FunctionalExchange 53"
-              target="#2a3dcecb-95ec-4eea-a1d2-fd64fe695b08" source="#9725b8a4-9146-4ead-b949-fda4ecf79dd5"/>
+              id="232f2222-7948-473e-ae20-2d41d4dfa749" name="Hydraulic Status" target="#2a3dcecb-95ec-4eea-a1d2-fd64fe695b08"
+              source="#9725b8a4-9146-4ead-b949-fda4ecf79dd5"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="a4b9c2a3-f44c-496e-b8bc-520fd63c8468" name="FunctionalExchange 54"
-              target="#28d425af-d899-4572-9e6d-724bbe63e1d5" source="#b9ba94ac-2a90-42f3-aba3-bbeeee52ca1c"/>
+              id="a4b9c2a3-f44c-496e-b8bc-520fd63c8468" name="Traction Status" target="#28d425af-d899-4572-9e6d-724bbe63e1d5"
+              source="#b9ba94ac-2a90-42f3-aba3-bbeeee52ca1c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="c7eda165-39d8-417d-bb0b-5463673045ce" name="FunctionalExchange 55"
-              target="#b8c79f74-6858-4256-940b-825bb8b53d3e" source="#efeded00-a736-46c2-8bb0-5faaac55b9e1"/>
+              id="c7eda165-39d8-417d-bb0b-5463673045ce" name="Power Status" target="#b8c79f74-6858-4256-940b-825bb8b53d3e"
+              source="#efeded00-a736-46c2-8bb0-5faaac55b9e1"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="82bfa742-79b2-4d40-869f-afaa0daf53df" name="FunctionalExchange 56"
-              target="#e6db2fe5-9ee3-47aa-9e6f-1efbb07d2d50" source="#ba94b451-f0de-4cab-ad38-c4be8a5b7f56"/>
+              id="82bfa742-79b2-4d40-869f-afaa0daf53df" name="Moldboard Status" target="#e6db2fe5-9ee3-47aa-9e6f-1efbb07d2d50"
+              source="#ba94b451-f0de-4cab-ad38-c4be8a5b7f56"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="59812c39-9917-40dc-8d5e-c2e08e8f340d" name="FunctionalExchange 57"
-              target="#51f7118d-7971-4bf7-96c9-339d49545bbb" source="#13dd2267-bc34-40c2-9175-25203439810d"/>
+              id="59812c39-9917-40dc-8d5e-c2e08e8f340d" name="Attachment Status" target="#51f7118d-7971-4bf7-96c9-339d49545bbb"
+              source="#13dd2267-bc34-40c2-9175-25203439810d"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -3497,7 +3497,7 @@
                 sourceElement="#647dd15a-bde4-4b76-a95d-aa3fc4fa471a"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="d426c84d-77a5-4c12-8842-034a26dd696c" name="Hydaulic System">
+              id="d426c84d-77a5-4c12-8842-034a26dd696c" name="Hydraulic System">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="76d7caab-6fc6-4ad9-a013-f5be88738e8f" targetElement="#150e70d9-754b-4cee-86f1-956c9a4941e4"
                 sourceElement="#d426c84d-77a5-4c12-8842-034a26dd696c"/>
