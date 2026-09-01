@@ -107,6 +107,14 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="94d44dd1-4a37-4e58-862d-917d255fa730" involved="#f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c"
                 source="#a6a91e9d-2bba-41b3-8b7f-96db1a033902" target="#f62461f9-3db7-434e-bfb4-eeb2906c0cbd"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="0ea03ca3-af6d-4768-af24-1e1b95bb09c7" involved="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="18cd26af-59b0-41c5-bd57-bc36a53b76b9" involved="#ed3b6e56-34fb-40ea-a4a0-a77783bbc916"
+                source="#0ea03ca3-af6d-4768-af24-1e1b95bb09c7" target="#0a6a08ba-f04e-4974-b47d-73e69f6a8bc0"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f8277341-cc30-46fd-a471-54f05146ce75" involved="#74be3159-cbc9-48b2-ba91-27cc3e29d28b"
+                source="#0ea03ca3-af6d-4768-af24-1e1b95bb09c7" target="#a6a91e9d-2bba-41b3-8b7f-96db1a033902"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="d147662b-5e74-4434-b252-58c6778ffb67" name="Shape Shoulder">
@@ -138,6 +146,14 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="7ad84644-400b-4141-9e62-26a75da9367d" involved="#f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c"
                 source="#15f8a0df-c9d4-433c-a225-35b3e8813cc5" target="#aae2a112-20f2-4f54-8e8f-de5bb08ea5e2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="d1a27a1c-afbd-45ca-b852-3d3380d9c472" involved="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="5fe0d4ed-44af-43a9-ae61-d3eff4cb283b" involved="#ed0d1ee6-6322-4018-8832-95c83fafe8d2"
+                source="#d1a27a1c-afbd-45ca-b852-3d3380d9c472" target="#c512655c-98e9-4f92-bddc-773ed8db686a"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="0dc5c8cf-4915-4267-856b-c27abdfa07f7" involved="#74be3159-cbc9-48b2-ba91-27cc3e29d28b"
+                source="#d1a27a1c-afbd-45ca-b852-3d3380d9c472" target="#15f8a0df-c9d4-433c-a225-35b3e8813cc5"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="348f54d6-e481-46f5-8c3b-41603a6a4452" name="Shape Slope">
@@ -169,6 +185,14 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="b4fee488-44b9-47ff-8353-0ed231927625" involved="#f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c"
                 source="#613c57a3-37d0-42e2-9ef8-2a8428d7743a" target="#4bdf2af4-9c49-46bd-b2da-acbfdeded7c3"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="c70dab7c-c4a1-45e0-acce-f900c98f9001" involved="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="dd814272-b519-483f-b070-d7e679c8c134" involved="#ed35530c-e7ad-446f-91cb-8f9d18e73e11"
+                source="#c70dab7c-c4a1-45e0-acce-f900c98f9001" target="#6597735a-e7c8-449f-9a39-ec1be15779d9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c337544c-2660-439f-8e89-52f8793bd37b" involved="#74be3159-cbc9-48b2-ba91-27cc3e29d28b"
+                source="#c70dab7c-c4a1-45e0-acce-f900c98f9001" target="#613c57a3-37d0-42e2-9ef8-2a8428d7743a"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="1282850f-ac63-489f-b2c3-e7aa2fa1dc9e" name="Rip and Scarify Hardened Ground">
@@ -200,6 +224,14 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="78d593a2-5f95-448a-b984-5f40b2233647" involved="#78b377ad-1c72-4cf9-9476-28187c8875dd"
                 source="#7c9bd1b3-e962-4fa0-b93c-f7c61955eb86" target="#c8dbca27-5ce4-4b69-8192-2957fc35e111"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="2682b8a1-5a69-413b-af2c-9e2adac13d98" involved="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="cd5a0903-100d-48e8-8ce0-408976625579" involved="#e9abead4-c307-45ad-8587-2f06a970bf7f"
+                source="#2682b8a1-5a69-413b-af2c-9e2adac13d98" target="#b31460f9-796d-4336-9f77-1248cefd8575"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="2ef2b789-f2c5-43b6-aff1-d6c2a601c7d6" involved="#74be3159-cbc9-48b2-ba91-27cc3e29d28b"
+                source="#2682b8a1-5a69-413b-af2c-9e2adac13d98" target="#c8dbca27-5ce4-4b69-8192-2957fc35e111"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="bf7a10b4-422f-4903-b422-0cc8cfb762e2" name="Clear Snow">
@@ -231,6 +263,14 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="4f920666-e0fe-419f-91c4-7d934a92e5dc" involved="#f9354dbd-c2e1-4c37-a43d-4fe6a45cb94c"
                 source="#8ea6404d-3832-42e2-82fe-404772da787e" target="#a31b2e7e-5666-4e6e-acf0-957759bd339f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="e52ae5af-cd5c-47ed-a8a0-c1c6e450f32d" involved="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="a73e6ee3-32dd-4735-af55-8798b83b815c" involved="#4a07f191-5461-411f-8686-42ebbdfd0f90"
+                source="#e52ae5af-cd5c-47ed-a8a0-c1c6e450f32d" target="#22838405-3d73-45c4-b3e4-2c0c39d22855"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d1082ab3-94e9-4dcc-bc25-c47c9e908f36" involved="#74be3159-cbc9-48b2-ba91-27cc3e29d28b"
+                source="#e52ae5af-cd5c-47ed-a8a0-c1c6e450f32d" target="#8ea6404d-3832-42e2-82fe-404772da787e"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1" name="Support Servicing">
@@ -285,8 +325,8 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="ebbf2b13-ed59-44e7-9b6f-2edd9c23a905" name="Provide Diagnostic Data"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="3040aecb-4f9c-435e-8750-590c61c23645" description="Grader Operator activity - select forward/reverse gear and control direction of travel while grading (9F/6R powershift transmission)."
-              name="Control Direction of Travel"/>
+              id="3040aecb-4f9c-435e-8750-590c61c23645" name="Control Direction of Travel"
+              description="Grader Operator activity - select forward/reverse gear and control direction of travel while grading (9F/6R powershift transmission)."/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="2a22ef3f-3200-4843-9a1e-a90da5a7a138" name="Service Request" target="#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"
               source="#49176dc9-9528-4eb3-b4f5-e78ecde98960"/>
@@ -353,6 +393,24 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="78b377ad-1c72-4cf9-9476-28187c8875dd" name="Steering Feedback" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ed3b6e56-34fb-40ea-a4a0-a77783bbc916" name="Interaction 23" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ed0d1ee6-6322-4018-8832-95c83fafe8d2" name="Interaction 24" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ed35530c-e7ad-446f-91cb-8f9d18e73e11" name="Interaction 25" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e9abead4-c307-45ad-8587-2f06a970bf7f" name="Interaction 26" target="#9a1a171f-416b-4109-b005-156f30e720bd"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="4a07f191-5461-411f-8686-42ebbdfd0f90" name="Interaction 27" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="74be3159-cbc9-48b2-ba91-27cc3e29d28b" name="Interaction 28" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
+              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
@@ -453,8 +511,12 @@
               id="acea56b0-2c89-4982-8bd3-00f5ee19145d" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="0d89d7f5-3b5c-49c1-bec0-ac21ea796214" description="Control forward/reverse direction of travel to position and operate the machine on a worksite."
-            name="Maneuver Machine"/>
+            id="0d89d7f5-3b5c-49c1-bec0-ac21ea796214" name="Maneuver Machine" description="Control forward/reverse direction of travel to position and operate the machine on a worksite.">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f7d466ac-74de-46e6-9ff8-6c14d80ccc67" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="dfe7a6ec-be18-412e-a146-0382007fc8f4" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="2a261ee7-02c8-4496-96b1-d7b029a45bc7" name="Interfaces"/>
@@ -526,6 +588,9 @@
               sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="0736a8d5-063e-4ce5-b6ab-847db96f265e" targetElement="#3bfd224b-87a1-4396-873a-1b853faa62e5"
+              sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="5628da3e-35ee-4d69-9924-b7b61bf992e2" targetElement="#3040aecb-4f9c-435e-8750-590c61c23645"
               sourceElement="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"
