@@ -394,23 +394,23 @@
               id="78b377ad-1c72-4cf9-9476-28187c8875dd" name="Steering Feedback" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
               source="#0ae677a1-8f21-4d6f-8a8b-c6226885dd6b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ed3b6e56-34fb-40ea-a4a0-a77783bbc916" name="Interaction 23" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
+              id="ed3b6e56-34fb-40ea-a4a0-a77783bbc916" name="Direction Input" target="#736f433e-4a0c-442d-ae21-2f8f01cb64b4"
               source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ed0d1ee6-6322-4018-8832-95c83fafe8d2" name="Interaction 24" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
+              id="ed0d1ee6-6322-4018-8832-95c83fafe8d2" name="Direction Input" target="#2b1a3143-55fb-4dd1-b46d-177552e3add8"
               source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ed35530c-e7ad-446f-91cb-8f9d18e73e11" name="Interaction 25" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
+              id="ed35530c-e7ad-446f-91cb-8f9d18e73e11" name="Direction Input" target="#bb7bcad9-a1e5-41c8-beb0-c45dcfda867e"
               source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e9abead4-c307-45ad-8587-2f06a970bf7f" name="Interaction 26" target="#9a1a171f-416b-4109-b005-156f30e720bd"
+              id="e9abead4-c307-45ad-8587-2f06a970bf7f" name="Direction Input" target="#9a1a171f-416b-4109-b005-156f30e720bd"
               source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="4a07f191-5461-411f-8686-42ebbdfd0f90" name="Interaction 27" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
+              id="4a07f191-5461-411f-8686-42ebbdfd0f90" name="Direction Input" target="#fb525396-76a6-412b-a6cc-4280cb43396d"
               source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="74be3159-cbc9-48b2-ba91-27cc3e29d28b" name="Interaction 28" target="#3bfd224b-87a1-4396-873a-1b853faa62e5"
-              source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
+              id="74be3159-cbc9-48b2-ba91-27cc3e29d28b" name="Direction Feedback"
+              target="#3bfd224b-87a1-4396-873a-1b853faa62e5" source="#3040aecb-4f9c-435e-8750-590c61c23645"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
