@@ -233,7 +233,7 @@
                 source="#8ea6404d-3832-42e2-82fe-404772da787e" target="#a31b2e7e-5666-4e6e-acf0-957759bd339f"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1" name="OperationalProcess 9">
+              id="6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1" name="Support Servicing">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="8a16842b-5e28-45e4-a091-2e17e291b99d" involved="#2a22ef3f-3200-4843-9a1e-a90da5a7a138"
                 source="#799398d7-f711-4bde-987f-fb1f0fd9955a" target="#6c13c4ec-e22a-49f3-8983-9b97f6fb6127"/>
@@ -409,16 +409,6 @@
               id="228a5e64-1237-4ba4-beb4-40fd6e240c91" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="1367d4b5-4b33-40a6-b263-d8ed543f19d9" name="Monitor Fleet Remotely"
-            description="Off-board capability to monitor machine telematics, push software updates, and remotely troubleshoot issues (VisionLink / Remote Flash / Remote Troubleshooting).">
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="d29f6232-d602-4849-9847-e02ca0d5b4fb" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="eac6dd76-9aaa-472f-b267-a39922a2726d" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
-          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="0497b966-e258-4ecd-b480-c7da6b05c0ad" involved="#dab6d6be-2a38-4134-8a5e-789b8f8bdaa9"/>
-        </ownedOperationalCapabilities>
-        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="e3e04c63-b6fa-4dfa-a63e-590d7e054568" name="Support Servicing">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="7249f57e-7375-4545-9bdd-2a51cc4a4ad3" involved="#6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1"/>
@@ -452,6 +442,8 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6cedc8f5-2a27-4a06-97a8-6d90bfadd05b" name="Perform Remote Troubleshooting"
             description="Off-board capability for a dealer/support role to run diagnostic tests on the machine remotely and identify issues before dispatching a technician.">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="54ec00eb-ea7d-405e-bd5a-a89bb56da4fe" involved="#03f72a56-f644-4e84-81de-ad6d91ad0219"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="1d78ae19-a22d-4505-a870-cc089d70733c" involved="#4d1a7a59-efb1-45e8-8a34-8c835cf7a6e7"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"

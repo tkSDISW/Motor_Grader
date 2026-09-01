@@ -23,11 +23,11 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_RW1m4KJ_EfG76dNMCCyxxQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FFeXYKKJEfG76dNMCCyxxQ" name="[OCB] Operational Capabilities" repPath="#_FFaF8KKJEfG76dNMCCyxxQ" changeId="1787885505735">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_FFeXYKKJEfG76dNMCCyxxQ" name="[OCB] Operational Capabilities" repPath="#_FFaF8KKJEfG76dNMCCyxxQ" changeId="1788223412334">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Motor%20Grader.capella#44b9a2a5-2b29-4f60-b788-2d47fbf9fcbd"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zvzpcKVkEfG76dNMCCyxxQ" name="[OAB] Operational Entities" repPath="#_zvuJ4KVkEfG76dNMCCyxxQ" changeId="1788203592838">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zvzpcKVkEfG76dNMCCyxxQ" name="[OAB] Operational Entities" repPath="#_zvuJ4KVkEfG76dNMCCyxxQ" changeId="1788223498577">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Motor%20Grader.capella#c877a4c2-f4df-46a7-8872-7f6286fac777"/>
       </ownedRepresentationDescriptors>
@@ -39,7 +39,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Process%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="Motor%20Grader.capella#12ae99a5-3938-4905-b7fc-eff1cf1c397a"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OcGMQKVtEfG76dNMCCyxxQ" name="[OPD] Support Servicing" repPath="#_OcFlMKVtEfG76dNMCCyxxQ" changeId="1788202397366">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OcGMQKVtEfG76dNMCCyxxQ" name="[OPD] Support Servicing" repPath="#_OcFlMKVtEfG76dNMCCyxxQ" changeId="1788203935200">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Process%20Description']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="Motor%20Grader.capella#6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1"/>
       </ownedRepresentationDescriptors>
@@ -105,17 +105,6 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_G0tgYaKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G0tgYqKJEfG76dNMCCyxxQ" x="420" y="150" width="70" height="46"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_G0-mIKKJEfG76dNMCCyxxQ" type="2001" element="_GyocxqKJEfG76dNMCCyxxQ">
-          <children xmi:type="notation:Node" xmi:id="_G0_NMKKJEfG76dNMCCyxxQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_G0_NMaKJEfG76dNMCCyxxQ" x="-25" y="-14"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_G1QS-aKJEfG76dNMCCyxxQ" type="3005" element="_GypD0KKJEfG76dNMCCyxxQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_G1QS-qKJEfG76dNMCCyxxQ" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1QS-6KJEfG76dNMCCyxxQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_G0-mIaKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G0-mIqKJEfG76dNMCCyxxQ" x="270" y="150" width="70" height="46"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_N0mqsKKJEfG76dNMCCyxxQ" type="2002" element="_N0brkaKJEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_N0mqs6KJEfG76dNMCCyxxQ" type="5006"/>
@@ -198,22 +187,6 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GdwHAqKLEfG76dNMCCyxxQ" x="120" y="180" width="70" height="46"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_FFsZ0qKJEfG76dNMCCyxxQ"/>
-        <edges xmi:type="notation:Edge" xmi:id="_cA38IKKJEfG76dNMCCyxxQ" type="4001" element="_cAwAUKKJEfG76dNMCCyxxQ" source="_G0-mIKKJEfG76dNMCCyxxQ" target="_QL6gUKKJEfG76dNMCCyxxQ">
-          <children xmi:type="notation:Node" xmi:id="_cA4jM6KJEfG76dNMCCyxxQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cA4jNKKJEfG76dNMCCyxxQ" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_cA5KQKKJEfG76dNMCCyxxQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cA5KQaKJEfG76dNMCCyxxQ" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_cA5KQqKJEfG76dNMCCyxxQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cA5KQ6KJEfG76dNMCCyxxQ" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_cA4jMKKJEfG76dNMCCyxxQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_cA4jMaKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cA4jMqKJEfG76dNMCCyxxQ" points="[0, 0, -160, 100]$[160, -100, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cA5xUKKJEfG76dNMCCyxxQ" id="(1.0,0.43478260869565216)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cA5xUaKJEfG76dNMCCyxxQ" id="(0.0,0.6779661016949152)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_cdxTgKKJEfG76dNMCCyxxQ" type="4001" element="_cdsbBKKJEfG76dNMCCyxxQ" source="_G0tgYKKJEfG76dNMCCyxxQ" target="_QL6gUKKJEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_cdxThKKJEfG76dNMCCyxxQ" type="6001">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cdxThaKJEfG76dNMCCyxxQ" y="-10"/>
@@ -373,22 +346,6 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qrNpo6KJEfG76dNMCCyxxQ" points="[-11, 0, -90, -133]$[70, 121, -9, -12]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qrOQsKKJEfG76dNMCCyxxQ" id="(1.0,0.6521739130434783)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qrOQsaKJEfG76dNMCCyxxQ" id="(0.06976744186046512,0.22033898305084745)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_reKwkKKJEfG76dNMCCyxxQ" type="4001" element="_reDb8KKJEfG76dNMCCyxxQ" source="_G0-mIKKJEfG76dNMCCyxxQ" target="_UHwDwKKJEfG76dNMCCyxxQ">
-          <children xmi:type="notation:Node" xmi:id="_reKwlKKJEfG76dNMCCyxxQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_reKwlaKJEfG76dNMCCyxxQ" x="7" y="-9"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_reKwlqKJEfG76dNMCCyxxQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_reKwl6KJEfG76dNMCCyxxQ" x="9" y="9"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_reKwmKKJEfG76dNMCCyxxQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_reKwmaKJEfG76dNMCCyxxQ" x="24" y="6"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_reKwkaKJEfG76dNMCCyxxQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_reKwkqKJEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_reKwk6KJEfG76dNMCCyxxQ" points="[-11, 0, -243, -150]$[210, 130, -22, -20]$[220, 139, -12, -11]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_reKwmqKJEfG76dNMCCyxxQ" id="(1.0,0.6521739130434783)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_reKwm6KJEfG76dNMCCyxxQ" id="(0.09302325581395349,0.5084745762711864)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_4wUjIKKJEfG76dNMCCyxxQ" type="4001" element="_4wPquKKJEfG76dNMCCyxxQ" source="_w5cGcKKJEfG76dNMCCyxxQ" target="_QL6gUKKJEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_4wUjJKKJEfG76dNMCCyxxQ" type="6001">
@@ -578,17 +535,6 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GyocxqKJEfG76dNMCCyxxQ" name="Monitor Fleet Remotely" outgoingEdges="_cAwAUKKJEfG76dNMCCyxxQ _reDb8KKJEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
-      <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Motor%20Grader.capella#1367d4b5-4b33-40a6-b263-d8ed543f19d9"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Motor%20Grader.capella#1367d4b5-4b33-40a6-b263-d8ed543f19d9"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GypD0KKJEfG76dNMCCyxxQ" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/OperationalCapability.svg">
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_w5UxsKKJEfG76dNMCCyxxQ" name="Support Servicing" outgoingEdges="_4wPquKKJEfG76dNMCCyxxQ _5OjXbqKJEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Motor%20Grader.capella#e3e04c63-b6fa-4dfa-a63e-590d7e054568"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="Motor%20Grader.capella#e3e04c63-b6fa-4dfa-a63e-590d7e054568"/>
@@ -644,7 +590,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_QLzyoKKJEfG76dNMCCyxxQ" name="Motor Grader" incomingEdges="_cAwAUKKJEfG76dNMCCyxxQ _cdsbBKKJEfG76dNMCCyxxQ _c_drWKKJEfG76dNMCCyxxQ _ec4rnKKJEfG76dNMCCyxxQ _fHvmcKKJEfG76dNMCCyxxQ _f4KW0KKJEfG76dNMCCyxxQ _4wPquKKJEfG76dNMCCyxxQ _ZBoSJKKLEfG76dNMCCyxxQ _Zg9SYKKLEfG76dNMCCyxxQ _aDAPXKKLEfG76dNMCCyxxQ">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_QLzyoKKJEfG76dNMCCyxxQ" name="Motor Grader" incomingEdges="_cdsbBKKJEfG76dNMCCyxxQ _c_drWKKJEfG76dNMCCyxxQ _ec4rnKKJEfG76dNMCCyxxQ _fHvmcKKJEfG76dNMCCyxxQ _f4KW0KKJEfG76dNMCCyxxQ _4wPquKKJEfG76dNMCCyxxQ _ZBoSJKKLEfG76dNMCCyxxQ _Zg9SYKKLEfG76dNMCCyxxQ _aDAPXKKLEfG76dNMCCyxxQ">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_QL0ZsKKJEfG76dNMCCyxxQ" borderSize="1" borderSizeComputationExpression="1" borderColor="69,69,69" backgroundStyle="GradientTopToBottom" backgroundColor="249,248,245" foregroundColor="221,221,200">
@@ -652,7 +598,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UHovAKKJEfG76dNMCCyxxQ" name="Grader Operator" incomingEdges="_n8v4VKKJEfG76dNMCCyxxQ _og4gLqKJEfG76dNMCCyxxQ _pEarFKKJEfG76dNMCCyxxQ _qDGg6KKJEfG76dNMCCyxxQ _qrIxTKKJEfG76dNMCCyxxQ _reDb8KKJEfG76dNMCCyxxQ">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UHovAKKJEfG76dNMCCyxxQ" name="Grader Operator" incomingEdges="_n8v4VKKJEfG76dNMCCyxxQ _og4gLqKJEfG76dNMCCyxxQ _pEarFKKJEfG76dNMCCyxxQ _qDGg6KKJEfG76dNMCCyxxQ _qrIxTKKJEfG76dNMCCyxxQ">
       <target xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Motor%20Grader.capella#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -673,15 +619,6 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@containerMappings[name='COC_OperationalEntities']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_cAwAUKKJEfG76dNMCCyxxQ" sourceNode="_GyocxqKJEfG76dNMCCyxxQ" targetNode="_QLzyoKKJEfG76dNMCCyxxQ">
-      <target xmi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement" href="Motor%20Grader.capella#d29f6232-d602-4849-9847-e02ca0d5b4fb"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement" href="Motor%20Grader.capella#d29f6232-d602-4849-9847-e02ca0d5b4fb"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_cAwnYKKJEfG76dNMCCyxxQ" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_cAwnYaKJEfG76dNMCCyxxQ"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_cdsbBKKJEfG76dNMCCyxxQ" sourceNode="_Gyocw6KJEfG76dNMCCyxxQ" targetNode="_QLzyoKKJEfG76dNMCCyxxQ">
       <target xmi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement" href="Motor%20Grader.capella#3b46c5b5-f7e6-4fc0-bca8-f6ec53b9495c"/>
@@ -770,15 +707,6 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qrIxTaKJEfG76dNMCCyxxQ" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qrIxTqKJEfG76dNMCCyxxQ"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_reDb8KKJEfG76dNMCCyxxQ" sourceNode="_GyocxqKJEfG76dNMCCyxxQ" targetNode="_UHovAKKJEfG76dNMCCyxxQ">
-      <target xmi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement" href="Motor%20Grader.capella#eac6dd76-9aaa-472f-b267-a39922a2726d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement" href="Motor%20Grader.capella#eac6dd76-9aaa-472f-b267-a39922a2726d"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_reDb8aKJEfG76dNMCCyxxQ" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_reDb8qKJEfG76dNMCCyxxQ"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
     </ownedDiagramElements>
@@ -982,7 +910,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QfxmJKVrEfG76dNMCCyxxQ"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_Qfw_EaVrEfG76dNMCCyxxQ" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qfw_EqVrEfG76dNMCCyxxQ" x="37" y="34" width="94" height="41"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qfw_EqVrEfG76dNMCCyxxQ" x="37" y="34" width="101" height="51"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_SM2zAKVrEfG76dNMCCyxxQ" type="3007" element="_SMhb0KVrEfG76dNMCCyxxQ">
               <children xmi:type="notation:Node" xmi:id="_SM3aEKVrEfG76dNMCCyxxQ" type="5003">
@@ -1088,7 +1016,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sWNzd6VpEfG76dNMCCyxxQ"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_sWNzcaVpEfG76dNMCCyxxQ" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sWNzcqVpEfG76dNMCCyxxQ" x="5" y="124" width="171" height="30"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sWNzcqVpEfG76dNMCCyxxQ" x="5" y="124" width="201" height="31"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_K1LsyaVpEfG76dNMCCyxxQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_K1LsyqVpEfG76dNMCCyxxQ"/>
@@ -1193,7 +1121,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjO_56VtEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_JjO_4aVtEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjO_4qVtEfG76dNMCCyxxQ" x="2" width="20" height="20"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JjO_4qVtEfG76dNMCCyxxQ" x="1220" y="69" width="20" height="20"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_zv3T0qVkEfG76dNMCCyxxQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_1AfmgKVqEfG76dNMCCyxxQ" type="4001" element="_1APu4KVqEfG76dNMCCyxxQ" source="_rVsVIKVqEfG76dNMCCyxxQ" target="_ziL1cKVqEfG76dNMCCyxxQ">
@@ -1481,7 +1409,7 @@
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_YVch5aVrEfG76dNMCCyxxQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_YVch5qVrEfG76dNMCCyxxQ" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YVch56VrEfG76dNMCCyxxQ" points="[0, 0, -396, 120]$[396, -120, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YVdI9qVrEfG76dNMCCyxxQ" id="(1.0,0.3333333333333333)"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YVdI9qVrEfG76dNMCCyxxQ" id="(0.8507462686567164,0.3225806451612903)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YVdI96VrEfG76dNMCCyxxQ" id="(0.0,0.3225806451612903)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Y5BwEKVrEfG76dNMCCyxxQ" type="4001" element="_Y4xRYKVrEfG76dNMCCyxxQ" source="_sCxTAKVpEfG76dNMCCyxxQ" target="_SM2zAKVrEfG76dNMCCyxxQ">
@@ -1545,7 +1473,7 @@
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_At854aVwEfG76dNMCCyxxQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_At854qVwEfG76dNMCCyxxQ" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_At8546VwEfG76dNMCCyxxQ" points="[-22, 6, 408, -113]$[-413, 115, 17, -4]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_At856qVwEfG76dNMCCyxxQ" id="(0.23404255319148937,0.24390243902439024)"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_At856qVwEfG76dNMCCyxxQ" id="(0.21782178217821782,0.19607843137254902)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_At8566VwEfG76dNMCCyxxQ" id="(0.9005847953216374,0.6129032258064516)"/>
         </edges>
       </data>
@@ -1686,7 +1614,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_SMhb0KVrEfG76dNMCCyxxQ" name="Recieve Software" incomingEdges="_Y4xRYKVrEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_SMhb0KVrEfG76dNMCCyxxQ" name="Receive Software" incomingEdges="_Y4xRYKVrEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Motor%20Grader.capella#95e7df86-c6fa-46b0-a804-0cc0297df268"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Motor%20Grader.capella#95e7df86-c6fa-46b0-a804-0cc0297df268"/>
         <ownedStyle xmi:type="diagram:Square" uid="_SMiC4KVrEfG76dNMCCyxxQ" labelColor="91,64,64" borderSize="4" borderSizeComputationExpression="1" borderColor="165,42,42" labelPosition="node" color="247,218,116">
@@ -1696,7 +1624,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_UV8mcKVrEfG76dNMCCyxxQ" name="Provide Diagonostic Data" incomingEdges="_YVMqQKVrEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_UV8mcKVrEfG76dNMCCyxxQ" name="Provide Diagnostic Data" incomingEdges="_YVMqQKVrEfG76dNMCCyxxQ" width="7" height="7" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Motor%20Grader.capella#ebbf2b13-ed59-44e7-9b6f-2edd9c23a905"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Motor%20Grader.capella#ebbf2b13-ed59-44e7-9b6f-2edd9c23a905"/>
         <ownedStyle xmi:type="diagram:Square" uid="_UV8mcaVrEfG76dNMCCyxxQ" labelColor="91,64,64" borderSize="4" borderSizeComputationExpression="1" borderColor="34,139,34" labelPosition="node" color="247,218,116">
@@ -1841,7 +1769,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8IKMwKVqEfG76dNMCCyxxQ" name="Interaction 4" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUt3cKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8IKMwKVqEfG76dNMCCyxxQ" name="Steering Input" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUt3cKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#ae49e26e-91f7-4423-a5d9-1572fb1b250c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#ae49e26e-91f7-4423-a5d9-1572fb1b250c"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8IKz0KVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="249,252,103">
@@ -1854,7 +1782,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8nSYwKVqEfG76dNMCCyxxQ" name="Interaction 5" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUuegKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8nSYwKVqEfG76dNMCCyxxQ" name="Steering Input" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUuegKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#77db5f79-5418-41bf-80d5-e6734f257c9e"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#77db5f79-5418-41bf-80d5-e6734f257c9e"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8nSYwaVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="255,165,0">
@@ -1867,7 +1795,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9GqcYKVqEfG76dNMCCyxxQ" name="Interaction 6" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUueg6VqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9GqcYKVqEfG76dNMCCyxxQ" name="Steering Input" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUueg6VqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#68164f1c-78de-4279-b178-9092395ffe14"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#68164f1c-78de-4279-b178-9092395ffe14"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_9GqcYaVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -1880,7 +1808,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9qBoIKVqEfG76dNMCCyxxQ" name="Interaction 7" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUvFkKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9qBoIKVqEfG76dNMCCyxxQ" name="Steering Input" sourceNode="_VQKd4KVpEfG76dNMCCyxxQ" targetNode="_oUvFkKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#51801b1d-acad-48e1-90d5-e0ee474909ee"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#51801b1d-acad-48e1-90d5-e0ee474909ee"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_9qBoIaVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -1893,7 +1821,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-ay9wKVqEfG76dNMCCyxxQ" name="Interaction 8" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUt3cKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-ay9wKVqEfG76dNMCCyxxQ" name="Blade Position Input" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUt3cKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#b1ef1fe5-4f44-4696-a77c-bcc5ca16e65c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#b1ef1fe5-4f44-4696-a77c-bcc5ca16e65c"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-ay9waVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="249,252,103">
@@ -1906,7 +1834,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-_EIcKVqEfG76dNMCCyxxQ" name="Interaction 9" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUuegKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_-_EIcKVqEfG76dNMCCyxxQ" name="Blade Position Input" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUuegKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#2d410e62-d365-40eb-987f-8ae2cc3428b6"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#2d410e62-d365-40eb-987f-8ae2cc3428b6"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-_EIcaVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="255,165,0">
@@ -1919,7 +1847,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__sOwcKVqEfG76dNMCCyxxQ" name="Interaction 10" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUueg6VqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__sOwcKVqEfG76dNMCCyxxQ" name="Blade Position Input" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUueg6VqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#01483894-8e91-4ef5-9a21-471f83fada1d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#01483894-8e91-4ef5-9a21-471f83fada1d"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="__sOwcaVqEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -1932,7 +1860,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AcdTgKVrEfG76dNMCCyxxQ" name="Interaction 11" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUvFkKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AcdTgKVrEfG76dNMCCyxxQ" name="Blade Position Input" sourceNode="_VQMTEKVpEfG76dNMCCyxxQ" targetNode="_oUvFkKVqEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#18fac8b3-b3c6-4dd0-a99a-b4d41f4f4ebc"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#18fac8b3-b3c6-4dd0-a99a-b4d41f4f4ebc"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AcdTgaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -1971,7 +1899,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JBHcMKVrEfG76dNMCCyxxQ" name="Interaction 14" sourceNode="_oUt3cKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JBHcMKVrEfG76dNMCCyxxQ" name="Shoulder Shaping Command" sourceNode="_oUt3cKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#cdb454a1-3e5e-4afd-aaa3-12fdb7be1cbd"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#cdb454a1-3e5e-4afd-aaa3-12fdb7be1cbd"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_JBHcMaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="249,252,103">
@@ -1984,7 +1912,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ji4FcKVrEfG76dNMCCyxxQ" name="Interaction 15" sourceNode="_oUuegKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Ji4FcKVrEfG76dNMCCyxxQ" name="Slope Shaping Command" sourceNode="_oUuegKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#dd288fed-12be-472e-b932-d0bf8779b719"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#dd288fed-12be-472e-b932-d0bf8779b719"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ji4sgKVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="255,165,0">
@@ -1997,7 +1925,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KE_UAKVrEfG76dNMCCyxxQ" name="Interaction 16" sourceNode="_oUueg6VqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KE_UAKVrEfG76dNMCCyxxQ" name="Ripping Command" sourceNode="_oUueg6VqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#9e0a4290-b26d-421e-b3be-2580a00fb626"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#9e0a4290-b26d-421e-b3be-2580a00fb626"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_KE_UAaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -2010,7 +1938,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LGU1MKVrEfG76dNMCCyxxQ" name="Interaction 17" sourceNode="_oUvFkKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LGU1MKVrEfG76dNMCCyxxQ" name="Snow Clearing Command" sourceNode="_oUvFkKVqEfG76dNMCCyxxQ" targetNode="_DYPvMKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#070e9670-5493-4799-9347-bbaa22e8bc90"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#070e9670-5493-4799-9347-bbaa22e8bc90"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LGU1MaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4">
@@ -2023,7 +1951,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YVMqQKVrEfG76dNMCCyxxQ" name="Interaction 18" sourceNode="_bPne4qVpEfG76dNMCCyxxQ" targetNode="_UV8mcKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_YVMqQKVrEfG76dNMCCyxxQ" name="Diagnostic Request" sourceNode="_bPne4qVpEfG76dNMCCyxxQ" targetNode="_UV8mcKVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#0fcda4d0-04b8-4c09-a9ad-4d57b411d4be"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#0fcda4d0-04b8-4c09-a9ad-4d57b411d4be"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_YVMqQaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="34,139,34">
@@ -2036,7 +1964,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Y4xRYKVrEfG76dNMCCyxxQ" name="Interaction 19" sourceNode="_bPm30KVpEfG76dNMCCyxxQ" targetNode="_SMhb0KVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Y4xRYKVrEfG76dNMCCyxxQ" name="Software Update Package" sourceNode="_bPm30KVpEfG76dNMCCyxxQ" targetNode="_SMhb0KVrEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#e685f362-0cdd-470e-a5c1-1ad4e88ab263"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#e685f362-0cdd-470e-a5c1-1ad4e88ab263"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Y4xRYaVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="165,42,42">
@@ -2049,7 +1977,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Z6AE4KVrEfG76dNMCCyxxQ" name="Interaction 20" sourceNode="_QfWIUKVrEfG76dNMCCyxxQ" targetNode="_W6FCAKVpEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Z6AE4KVrEfG76dNMCCyxxQ" name="Telematics Data" sourceNode="_QfWIUKVrEfG76dNMCCyxxQ" targetNode="_W6FCAKVpEfG76dNMCCyxxQ" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#6ab1a825-040c-4ebb-bf37-e66a7a49e76c"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#6ab1a825-040c-4ebb-bf37-e66a7a49e76c"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Z6AE4aVrEfG76dNMCCyxxQ" targetArrow="InputFillClosedArrow" size="4" strokeColor="24,114,248">
@@ -2157,9 +2085,12 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@nodeMappings[name='OAB_OperationalProcessEnd']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_JiLP8KVtEfG76dNMCCyxxQ" name="OperationalProcess 9" width="2" height="2" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_JiLP8KVtEfG76dNMCCyxxQ" name="Support Servicing" width="2" height="2" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="Motor%20Grader.capella#6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalProcess" href="Motor%20Grader.capella#6cc4fe28-f10c-4a5d-ad19-1f8f68dabcc1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Square" uid="_JiLP8aVtEfG76dNMCCyxxQ" borderSize="1" borderSizeComputationExpression="1" width="2" height="2">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@nodeMappings[name='OAB_OperationalProcessEnd']/@style"/>
       </ownedStyle>
@@ -2609,7 +2540,7 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_OcUOsKVtEfG76dNMCCyxxQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_OcUOsaVtEfG76dNMCCyxxQ"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OcIBcKVtEfG76dNMCCyxxQ" name="Accept Service" incomingEdges="_OcIohKVtEfG76dNMCCyxxQ" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_OcIBcKVtEfG76dNMCCyxxQ" name="Accept Service Request" incomingEdges="_OcIohKVtEfG76dNMCCyxxQ" width="10" height="5" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="Motor%20Grader.capella#6c13c4ec-e22a-49f3-8983-9b97f6fb6127"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction" href="Motor%20Grader.capella#6c13c4ec-e22a-49f3-8983-9b97f6fb6127"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Motor%20Grader.capella#73fa08ba-12bc-415a-81ea-4bc9273f4c0e"/>
@@ -2627,7 +2558,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OcIohKVtEfG76dNMCCyxxQ" name="Interaction 1" sourceNode="_OcIogaVtEfG76dNMCCyxxQ" targetNode="_OcIBcKVtEfG76dNMCCyxxQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OcIohKVtEfG76dNMCCyxxQ" name="Service Request" sourceNode="_OcIogaVtEfG76dNMCCyxxQ" targetNode="_OcIBcKVtEfG76dNMCCyxxQ">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="Motor%20Grader.capella#8a16842b-5e28-45e4-a091-2e17e291b99d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink" href="Motor%20Grader.capella#8a16842b-5e28-45e4-a091-2e17e291b99d"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Motor%20Grader.capella#2a22ef3f-3200-4843-9a1e-a90da5a7a138"/>
