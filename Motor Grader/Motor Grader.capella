@@ -3221,7 +3221,7 @@
               id="131307ed-f2c2-45d9-b1f4-bc4bab54ba1b" name="Movement Feedback" target="#3d06a8d1-a5af-4d3f-a692-262f515996e8"
               source="#d2e41167-3154-45ef-b566-13d99f2352ad"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7f8e44fd-fad9-46e9-ab43-46c91a4cc77b" name="FunctionalExchange 48"
+              id="7f8e44fd-fad9-46e9-ab43-46c91a4cc77b" name="Attachment Actuation Command"
               target="#41ef47fb-6af0-4817-9797-b6d10b17cf34" source="#7bad6a92-4a9b-496b-8456-b06a3abf51d4"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
@@ -3583,8 +3583,9 @@
                 sourceElement="#375f118a-46bb-4214-8daf-0352274b022a"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="1d3080a2-780f-4223-9af5-5ba103d0fe82" name="C 10" source="#e8248e94-1633-48c6-9d7c-3601ee593453"
-              target="#1a14b779-dab5-4b1b-8333-d340fd1bab6a" kind="FLOW">
+              id="1d3080a2-780f-4223-9af5-5ba103d0fe82" name="Attachment Actuation Channel"
+              source="#e8248e94-1633-48c6-9d7c-3601ee593453" target="#1a14b779-dab5-4b1b-8333-d340fd1bab6a"
+              kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
                 id="d08ffbb4-1475-4c2d-af1c-192ee088d6f2" targetElement="#7f8e44fd-fad9-46e9-ab43-46c91a4cc77b"
                 sourceElement="#1d3080a2-780f-4223-9af5-5ba103d0fe82"/>
