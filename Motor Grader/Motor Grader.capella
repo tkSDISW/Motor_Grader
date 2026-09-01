@@ -1907,14 +1907,14 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="20b57e37-c393-45e1-80d0-e11a31f03792"
             name="Fleet Manager" abstractType="#0ac1d50e-17c5-4000-becf-ba76cbd21450"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="b2eddbd8-80d9-4463-93b6-5ef57437fe14" name="Telematics Data" source="#6471445d-29d6-4c6c-ada3-dc9c711bf5f7"
+            id="b2eddbd8-80d9-4463-93b6-5ef57437fe14" name="[I] Telematics Data" source="#6471445d-29d6-4c6c-ada3-dc9c711bf5f7"
             target="#d1406054-daf3-4d91-81f2-8f27549069ca" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="11eca451-64e6-425b-a977-8aa2938c5f2b" targetElement="#4ffaa28a-2997-43d0-895c-36f879543027"
               sourceElement="#b2eddbd8-80d9-4463-93b6-5ef57437fe14"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="29b6f069-acd9-4aff-8558-371ef433625c" name="Remote Support Channel"
+            id="29b6f069-acd9-4aff-8558-371ef433625c" name="[I] Remote Support Channel"
             source="#b0e3a4e6-7bc8-41ee-9904-b45d4c744fe5" target="#7bd07971-c9f5-4ec4-9c15-c59f8fa68477"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -1925,7 +1925,7 @@
               sourceElement="#29b6f069-acd9-4aff-8558-371ef433625c"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="fc75d520-3e93-4b43-b841-ea1207af349d" name="Blade Adjustment Commands"
+            id="fc75d520-3e93-4b43-b841-ea1207af349d" name="[I] Blade Adjustment Commands"
             source="#0207b6e2-3484-4586-bc4b-73c7f208a922" target="#7831165f-f3e9-49eb-a6fe-e7ef8d89d5c3"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -1945,15 +1945,16 @@
               sourceElement="#fc75d520-3e93-4b43-b841-ea1207af349d"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="13c6241b-fe0f-4040-a27b-3293fdcc8d2c" name="Service Request" source="#7d2a1a66-73f8-4192-9912-12c0b34b0ba8"
+            id="13c6241b-fe0f-4040-a27b-3293fdcc8d2c" name="[I] Service Request" source="#7d2a1a66-73f8-4192-9912-12c0b34b0ba8"
             target="#a2d5e66b-1d0b-4fbf-8214-987c1366f7eb" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="8300af05-82ba-4127-9024-dd4a10a125fd" targetElement="#d816ce75-2187-41f1-9bba-fdb7bbb221e7"
               sourceElement="#13c6241b-fe0f-4040-a27b-3293fdcc8d2c"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="a996c459-7087-4c19-ba6f-cfec1f04e52e" name="Steering Control" source="#9b2e09f1-15ae-4a19-a301-216e68d8e920"
-            target="#0a89efab-90aa-4543-b0cc-0c5601bf70c4" kind="FLOW">
+            id="a996c459-7087-4c19-ba6f-cfec1f04e52e" name="[I] Steering Control"
+            source="#9b2e09f1-15ae-4a19-a301-216e68d8e920" target="#0a89efab-90aa-4543-b0cc-0c5601bf70c4"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="b61d7d56-f89b-44df-ad25-e5266f68c2fd" targetElement="#2ee376fe-7b5c-43da-94dd-492412b4f3d0"
               sourceElement="#a996c459-7087-4c19-ba6f-cfec1f04e52e"/>
@@ -1971,7 +1972,7 @@
               sourceElement="#a996c459-7087-4c19-ba6f-cfec1f04e52e"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="d7d1ec12-5329-49fb-a326-a0553171c1d7" name="Blade Position Control"
+            id="d7d1ec12-5329-49fb-a326-a0553171c1d7" name="[I] Blade Position Control"
             source="#ae568d33-87d0-43fa-92d1-5bc614741cb2" target="#5f5fec60-d30a-43fe-a4ab-95a327d22ae1"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -1991,8 +1992,9 @@
               sourceElement="#d7d1ec12-5329-49fb-a326-a0553171c1d7"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="Direction Control" source="#912806b8-710c-4e07-b40a-c5cc406c6ff1"
-            target="#07e6218e-e428-4842-9f5f-451a67e0fac5" kind="FLOW">
+            id="302dc048-1f8f-43ac-b5cd-63faf37d895d" name="[I] Direction Control"
+            source="#912806b8-710c-4e07-b40a-c5cc406c6ff1" target="#07e6218e-e428-4842-9f5f-451a67e0fac5"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="29d16a9d-340a-4ce2-a8dc-52f221bb2e01" targetElement="#3654fc50-b3d4-4714-a0b0-030d6f249503"
               sourceElement="#302dc048-1f8f-43ac-b5cd-63faf37d895d"/>
@@ -3397,14 +3399,14 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="036ebd00-4c3d-481e-b8cc-6c27202a5f08"
             name="Fleet Manager" abstractType="#e9e4d684-b676-4d78-a9d7-2e59f3e3bb05"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="b9b8840f-586d-4392-81cb-75d04eb28bd8" name="Telematics Data" source="#b1f671bc-dd9e-4c1b-b874-297ca88446ff"
+            id="b9b8840f-586d-4392-81cb-75d04eb28bd8" name="[I] Telematics Data" source="#b1f671bc-dd9e-4c1b-b874-297ca88446ff"
             target="#6228a396-267d-4bf0-891c-df0e56b57d44" kind="FLOW">
           <ownedComponentExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeRealization"
               id="a07b240e-a5ec-4d6c-aeaf-b3afbb0621ef" targetElement="#b2eddbd8-80d9-4463-93b6-5ef57437fe14"
               sourceElement="#b9b8840f-586d-4392-81cb-75d04eb28bd8"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="631f26d5-7c13-4f07-9ee0-80453923885a" name="Remote Support Channel"
+            id="631f26d5-7c13-4f07-9ee0-80453923885a" name="[I] Remote Support Channel"
             source="#f1c23dd6-57e2-4776-bf20-72b4ee7d0445" target="#c62af66f-5fbe-46c3-80f7-85889bd2360b"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3418,7 +3420,7 @@
               sourceElement="#631f26d5-7c13-4f07-9ee0-80453923885a"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="aff01de7-df36-46d1-bddb-9854fedd9400" name="Blade Adjustment Commands"
+            id="aff01de7-df36-46d1-bddb-9854fedd9400" name="[I] Blade Adjustment Commands"
             source="#881e614f-c10e-4e10-bfe0-de583a8b9f6c" target="#91a2c170-f83b-4cc9-88a2-704804ad2b5c"
             kind="FLOW">
           <ownedComponentExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeRealization"
@@ -3426,15 +3428,16 @@
               sourceElement="#aff01de7-df36-46d1-bddb-9854fedd9400"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="2deb811c-4a07-4481-a15a-030b72601545" name="Service Request" source="#30664d03-909c-4d3b-8f73-349cee9cd050"
+            id="2deb811c-4a07-4481-a15a-030b72601545" name="[I] Service Request" source="#30664d03-909c-4d3b-8f73-349cee9cd050"
             target="#53a3f94e-4b12-45b5-afcb-817ec0a4af7c" kind="FLOW">
           <ownedComponentExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeRealization"
               id="92b53aea-e38a-4abc-b9da-2898f85f748f" targetElement="#13c6241b-fe0f-4040-a27b-3293fdcc8d2c"
               sourceElement="#2deb811c-4a07-4481-a15a-030b72601545"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="54a7a479-ef67-4501-bdad-4fff172ed8ae" name="Steering Control" source="#c3cec411-dde7-42d4-9d4d-3741dd016c40"
-            target="#0e1462b8-acc0-4c61-98c8-9a2b312ad8ef" kind="FLOW">
+            id="54a7a479-ef67-4501-bdad-4fff172ed8ae" name="[I] Steering Control"
+            source="#c3cec411-dde7-42d4-9d4d-3741dd016c40" target="#0e1462b8-acc0-4c61-98c8-9a2b312ad8ef"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="3835b373-0845-4321-964c-a782ca494334" targetElement="#b2a8b67f-87b0-4b63-b1b6-1fb113271cbf"
               sourceElement="#54a7a479-ef67-4501-bdad-4fff172ed8ae"/>
@@ -3443,7 +3446,7 @@
               sourceElement="#54a7a479-ef67-4501-bdad-4fff172ed8ae"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="5ca1b4ce-fdb8-4034-acd1-c39ed5355f45" name="Blade Position Control"
+            id="5ca1b4ce-fdb8-4034-acd1-c39ed5355f45" name="[I] Blade Position Control"
             source="#57509469-84a3-4490-b9fc-03efff913200" target="#7e20e311-5682-43b4-8619-cb0e74aea58c"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3454,8 +3457,9 @@
               sourceElement="#5ca1b4ce-fdb8-4034-acd1-c39ed5355f45"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="6b272e34-abfa-4b96-8b3e-f4d1827b64ab" name="Direction Control" source="#28e5ff82-edad-48a2-b2be-6373f0bf7c75"
-            target="#6e9cddb6-20b1-42dd-bac6-94a308e484e1" kind="FLOW">
+            id="6b272e34-abfa-4b96-8b3e-f4d1827b64ab" name="[I] Direction Control"
+            source="#28e5ff82-edad-48a2-b2be-6373f0bf7c75" target="#6e9cddb6-20b1-42dd-bac6-94a308e484e1"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="d7347a5a-e024-4767-bacd-0b22beee86f2" targetElement="#650ccf61-742c-4331-8d19-9b91366cc0b7"
               sourceElement="#6b272e34-abfa-4b96-8b3e-f4d1827b64ab"/>
@@ -3464,7 +3468,7 @@
               sourceElement="#6b272e34-abfa-4b96-8b3e-f4d1827b64ab"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="4004f084-f5e7-4ebd-818f-b58eea7deaf9" name="Blade-Ground Contact"
+            id="4004f084-f5e7-4ebd-818f-b58eea7deaf9" name="[E] Blade-Ground Contact"
             source="#196f0eff-d0c9-4590-a9c9-2270c9dd575c" target="#1853372f-7908-4d80-b10d-23c9388ad323"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3472,7 +3476,7 @@
               sourceElement="#4004f084-f5e7-4ebd-818f-b58eea7deaf9"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="a53ad2d6-f5ef-4562-984b-3b25bed1b53d" name="Front Wheel-Ground Contact"
+            id="a53ad2d6-f5ef-4562-984b-3b25bed1b53d" name="[E] Front Wheel-Ground Contact"
             source="#a4cede8a-e4cb-4a42-993f-f87fef7a75e5" target="#919e662c-6a4d-4d16-ac80-2328cc296c5f"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3480,7 +3484,7 @@
               sourceElement="#a53ad2d6-f5ef-4562-984b-3b25bed1b53d"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="54312185-cce5-4d44-9a88-8e36c3032c16" name="Rear Wheel-Ground Contact"
+            id="54312185-cce5-4d44-9a88-8e36c3032c16" name="[E] Rear Wheel-Ground Contact"
             source="#d10d9932-0799-4212-be78-0c8522f5e585" target="#2012936f-e979-4047-b47e-8b07bcaeccd6"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3502,7 +3506,7 @@
               id="258fb8da-b28c-4cd9-863e-3813d292814a" targetElement="#5d274c48-fc16-4efc-ab1d-92f40deb5e7d"
               sourceElement="#d0bfdd60-f997-4091-a612-d66cdc5bb039"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="5c77e4ab-117c-483c-aee2-a93fb736f6a4" name="Steering Command Channel"
+              id="5c77e4ab-117c-483c-aee2-a93fb736f6a4" name="[I] Steering Command Channel"
               source="#47404dc6-bb99-4801-8faa-7db461bae1e9" target="#9c699472-f2d2-4b1a-a5a2-0290f750fe44"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3510,7 +3514,7 @@
                 sourceElement="#5c77e4ab-117c-483c-aee2-a93fb736f6a4"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="3c0dd080-95dd-4fe4-beac-3168ba182b90" name="Blade Command Channel"
+              id="3c0dd080-95dd-4fe4-beac-3168ba182b90" name="[I] Blade Command Channel"
               source="#3a4da63d-e0a7-4486-b09d-555473895614" target="#07fdfc43-a1ad-48e1-887a-4fac0bf7db95"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3518,7 +3522,7 @@
                 sourceElement="#3c0dd080-95dd-4fe4-beac-3168ba182b90"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="8f86970f-6e72-461a-885d-cbe4f0bdda0f" name="Direction Command Channel"
+              id="8f86970f-6e72-461a-885d-cbe4f0bdda0f" name="[I] Direction Command Channel"
               source="#079c0217-7e80-49e0-92f8-c3c3f74a9911" target="#0fb74008-04cb-433c-876a-b146b651ceee"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3526,7 +3530,7 @@
                 sourceElement="#8f86970f-6e72-461a-885d-cbe4f0bdda0f"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="d3c9c152-c8d9-4cde-b39c-b0c7220257dd" name="Steering Actuation Channel"
+              id="d3c9c152-c8d9-4cde-b39c-b0c7220257dd" name="[I] Steering Actuation Channel"
               source="#910308d5-bd24-4279-929b-39eb70d2902d" target="#8283a2e4-b197-4dd8-9398-edba4a3b7c85"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3537,7 +3541,7 @@
                 sourceElement="#d3c9c152-c8d9-4cde-b39c-b0c7220257dd"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="107702c2-7347-4afd-aa64-7f0e3ce8f901" name="Moldboard Actuation Channel"
+              id="107702c2-7347-4afd-aa64-7f0e3ce8f901" name="[I] Moldboard Actuation Channel"
               source="#5412756e-a720-45e8-8245-ab7ff464e453" target="#a26edf1e-c417-4fa4-a4c8-479dc69bcdb4"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3545,7 +3549,7 @@
                 sourceElement="#107702c2-7347-4afd-aa64-7f0e3ce8f901"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="fbd8b7e0-c82e-4384-bece-5423c26497bf" name="Drivetrain Request Channel"
+              id="fbd8b7e0-c82e-4384-bece-5423c26497bf" name="[I] Drivetrain Request Channel"
               source="#698e2269-5dad-48ae-aa87-661abdf0c86e" target="#c3f01096-07e2-489c-b648-60fdd77b290c"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3556,7 +3560,7 @@
                 sourceElement="#fbd8b7e0-c82e-4384-bece-5423c26497bf"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="b8210806-fc81-48e8-9d5a-086ef5aa0e85" name="Mechanical Power Channel"
+              id="b8210806-fc81-48e8-9d5a-086ef5aa0e85" name="[E] Mechanical Power Channel"
               source="#10599f13-1f4d-44fd-82b1-adc2bfb9473a" target="#f179c5a7-fb31-4536-976b-d5c0f29a9620"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3564,7 +3568,7 @@
                 sourceElement="#b8210806-fc81-48e8-9d5a-086ef5aa0e85"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="4448a285-6bf1-48c8-ba56-7f01e7ceac36" name="Hydraulic Pressure"
+              id="4448a285-6bf1-48c8-ba56-7f01e7ceac36" name="[E] Hydraulic Pressure"
               source="#aa15dd87-020a-495e-834c-c9e43503dcd1" target="#3ffdcf45-f931-4693-8d7e-c101e7362507"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3572,7 +3576,7 @@
                 sourceElement="#4448a285-6bf1-48c8-ba56-7f01e7ceac36"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="375f118a-46bb-4214-8daf-0352274b022a" name="Hydraulic Pressure"
+              id="375f118a-46bb-4214-8daf-0352274b022a" name="[E] Hydraulic Pressure"
               source="#eabe230a-1594-4d38-b669-7a1d284355fb" target="#0c79c576-925b-42ce-86cd-cb5c5f10f691"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
@@ -3583,7 +3587,7 @@
                 sourceElement="#375f118a-46bb-4214-8daf-0352274b022a"/>
           </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="1d3080a2-780f-4223-9af5-5ba103d0fe82" name="Attachment Actuation Channel"
+              id="1d3080a2-780f-4223-9af5-5ba103d0fe82" name="[I] Attachment Actuation Channel"
               source="#e8248e94-1633-48c6-9d7c-3601ee593453" target="#1a14b779-dab5-4b1b-8333-d340fd1bab6a"
               kind="FLOW">
             <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
