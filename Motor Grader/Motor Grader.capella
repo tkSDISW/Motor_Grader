@@ -512,6 +512,18 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="0d89d7f5-3b5c-49c1-bec0-ac21ea796214" name="Maneuver Machine" description="Control forward/reverse direction of travel to position and operate the machine on a worksite.">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="9ba117b8-bb7f-4966-b9ba-11ba0e62eeab" involved="#35d09e28-4797-4f30-895a-30e101806d4d"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="b7f8ebc5-1389-4c49-a933-82ac39a732b8" involved="#12ae99a5-3938-4905-b7fc-eff1cf1c397a"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="a871214c-9784-48ea-bbd7-3996fbc03814" involved="#d147662b-5e74-4434-b252-58c6778ffb67"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="cab4a6bb-9b26-4e3a-8192-6e5b7d7a2bcc" involved="#348f54d6-e481-46f5-8c3b-41603a6a4452"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="66f234b1-06bc-425d-b731-fed04ca4f190" involved="#1282850f-ac63-489f-b2c3-e7aa2fa1dc9e"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="17053f5a-d09d-419c-85c9-b118f6c9e3cf" involved="#bf7a10b4-422f-4903-b422-0cc8cfb762e2"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f7d466ac-74de-46e6-9ff8-6c14d80ccc67" involved="#b88a52bd-c03e-43d6-bf47-0c93d9c55e33"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
