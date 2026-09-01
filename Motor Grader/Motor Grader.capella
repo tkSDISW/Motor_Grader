@@ -452,6 +452,9 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="acea56b0-2c89-4982-8bd3-00f5ee19145d" involved="#2bfd87c5-74dd-417b-af04-2e2ed7afbbba"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="0d89d7f5-3b5c-49c1-bec0-ac21ea796214" description="Control forward/reverse direction of travel to position and operate the machine on a worksite."
+            name="Maneuver Machine"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="2a261ee7-02c8-4496-96b1-d7b029a45bc7" name="Interfaces"/>
