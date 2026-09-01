@@ -3331,6 +3331,27 @@
                 id="a25428c0-3de4-43a9-9b86-06f1b037dac3" targetElement="#05ad9a3a-e54f-4ea6-a464-d0b0e68ca2aa"
                 sourceElement="#5d274c48-fc16-4efc-ab1d-92f40deb5e7d"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="56edf3b1-926d-4d2f-a245-a696dbf9da94" description="Grader Operator&amp;#x27;s unified control input (steering, direction, and blade commands) - the trigger function for the Operate functional chain."
+              name="Command Machine Operation"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="808f0730-7183-4113-a23d-45a8b43fc332" description="Drive the front axle steering linkage and frame articulation hydraulics per operator command. Part of the Operate functional chain."
+              name="Actuate Steering"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="adb43cbe-d029-4790-86fc-63e0bfa65b52" description="Select forward/reverse gear via the powershift transmission per operator command. Part of the Operate functional chain."
+              name="Actuate Direction of Travel"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="b0037d78-58b7-4e6d-865a-123a25c179e8" description="Combine operator blade command with slope sensor feedback (Cross Coupling logic) to compute the corrected blade position. Part of the Operate functional chain."
+              name="Determine Blade Adjustment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d768b250-00f2-47aa-b0e9-11064e51a55e" description="Drive the lift, circle, side-shift, and tip cylinders to the determined blade position. Part of the Operate functional chain."
+              name="Actuate Moldboard Position"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="e4394179-115d-47cb-96f3-cf00269f40f8" description="Drive ripper/scarifier or snow wing attachment hydraulics per operator command. Part of the Operate functional chain."
+              name="Actuate Attachment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="890aa6c5-81d5-4335-85eb-aa4075b0b6c2" description="Terminal function representing the worksite terrain being reshaped as a result of blade or attachment actuation. Part of the Operate functional chain."
+              name="Undergo Surface Modification"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="1eac2a67-c3e4-4ce4-8a55-0876dc6051cc" targetElement="#1f0a165e-3e05-40fb-98fb-5ca4d408dda8"
               sourceElement="#260c31be-8458-492a-b93b-8bd4581d64c7"/>
