@@ -2390,6 +2390,11 @@
             name="Logical System" abstractType="#d0bfdd60-f997-4091-a612-d66cdc5bb039"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="d0bfdd60-f997-4091-a612-d66cdc5bb039" name="Logical System">
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="f5a146f0-7ee0-4374-b852-9737fa37dd3e" description="Houses the operator interface: steering wheel/lever or joystick controls, blade position controls, Cat Grade display/HMI, seat, and cab controls. Realizes operator-facing functions (Steer Machine, Control Blade Position, Monitor Grade Quality, Control Direction of Travel)."
+              name="Operator Cabin"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8def894f-423c-41fd-8bd3-e83a7c4caff5"
+              name="Operator Cabin" abstractType="#f5a146f0-7ee0-4374-b852-9737fa37dd3e"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="e00b9021-bce5-466a-b835-347ca1adece5" targetElement="#648848bc-d6f2-4fe7-979f-18f5305e6929"
               sourceElement="#d0bfdd60-f997-4091-a612-d66cdc5bb039"/>
