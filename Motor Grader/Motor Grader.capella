@@ -2855,6 +2855,8 @@
                 id="865037cc-1d8d-47a0-9f98-af5f0ccd6755" name="FOP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="b8d795b3-2b17-414d-b9b9-be38881a6e12" name="FOP 2"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="7bad6a92-4a9b-496b-8456-b06a3abf51d4" name="FOP 3"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="d768b250-00f2-47aa-b0e9-11064e51a55e" name="Deliver Moldboard Capability"
@@ -2877,6 +2879,8 @@
               description="Drive ripper/scarifier or snow wing attachment hydraulics per operator command. Part of the Operate functional chain.">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="f85a65cb-8572-41c4-930d-2f975b541434" name="FIP 1"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="41ef47fb-6af0-4817-9797-b6d10b17cf34" name="FIP 2"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="170046d2-93f3-4e4e-92d4-386114cc316b" name="outSnow Clearing Command">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -3216,6 +3220,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="131307ed-f2c2-45d9-b1f4-bc4bab54ba1b" name="Movement Feedback" target="#3d06a8d1-a5af-4d3f-a692-262f515996e8"
               source="#d2e41167-3154-45ef-b566-13d99f2352ad"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="7f8e44fd-fad9-46e9-ab43-46c91a4cc77b" name="FunctionalExchange 48"
+              target="#41ef47fb-6af0-4817-9797-b6d10b17cf34" source="#7bad6a92-4a9b-496b-8456-b06a3abf51d4"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -3806,9 +3813,6 @@
                   sourceElement="#3ffdcf45-f931-4693-8d7e-c101e7362507"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="e8248e94-1633-48c6-9d7c-3601ee593453" name="CP 3" orientation="OUT"
-                kind="FLOW"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="196f0eff-d0c9-4590-a9c9-2270c9dd575c" name="CP 4" orientation="OUT"
                 kind="FLOW">
               <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
@@ -3836,6 +3840,9 @@
                   id="425c9057-fbc9-422d-9316-c557041fdf1c" targetElement="#865037cc-1d8d-47a0-9f98-af5f0ccd6755"
                   sourceElement="#5412756e-a720-45e8-8245-ab7ff464e453"/>
             </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="e8248e94-1633-48c6-9d7c-3601ee593453" name="CP 3" orientation="OUT"
+                kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="628ea600-0dcc-4903-ae54-648c3b1359ed" name="Attachment Subsystem"
