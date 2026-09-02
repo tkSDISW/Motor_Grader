@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_ROwB4KJ_EfG76dNMCCyxxQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HN2-UKX5EfG76dNMCCyxxQ" name="[LAB] Structure" repPath="#_HN1wMKX5EfG76dNMCCyxxQ" changeId="1788311665330">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HN2-UKX5EfG76dNMCCyxxQ" name="[LAB] Structure" repPath="#_HN1wMKX5EfG76dNMCCyxxQ" changeId="1788311803869">
         <eAnnotations xmi:type="description:DAnnotation" uid="_HN6os6X5EfG76dNMCCyxxQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HN6otKX5EfG76dNMCCyxxQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HN6otaX5EfG76dNMCCyxxQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -15745,7 +15745,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_eiFzA6ZrEfG76dNMCCyxxQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_eiFL8aZrEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiFL8qZrEfG76dNMCCyxxQ" x="1380" y="240"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiFL8qZrEfG76dNMCCyxxQ" x="1386" y="260"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_fGp4oKZrEfG76dNMCCyxxQ" type="2003" element="_fF_xUKZrEfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_fGp4o6ZrEfG76dNMCCyxxQ" type="5007"/>
@@ -18608,17 +18608,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_eiHBIKZrEfG76dNMCCyxxQ" type="4001" element="_eh0tQKZrEfG76dNMCCyxxQ" source="_eiFL8KZrEfG76dNMCCyxxQ" target="_MvHAa6X5EfG76dNMCCyxxQ">
           <children xmi:type="notation:Node" xmi:id="_eiHBJKZrEfG76dNMCCyxxQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiHBJaZrEfG76dNMCCyxxQ" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiHBJaZrEfG76dNMCCyxxQ" x="1" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_eiHBJqZrEfG76dNMCCyxxQ" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiHBJ6ZrEfG76dNMCCyxxQ" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_eiHBKKZrEfG76dNMCCyxxQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiHBKaZrEfG76dNMCCyxxQ" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eiHBKaZrEfG76dNMCCyxxQ" x="1" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_eiHBIaZrEfG76dNMCCyxxQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_eiHBIqZrEfG76dNMCCyxxQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eiHBI6ZrEfG76dNMCCyxxQ" points="[0, 0, 380, -89]$[-380, 89, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eiHBI6ZrEfG76dNMCCyxxQ" points="[-44, 13, 337, -102]$[-281, 84, 100, -31]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eiHoMKZrEfG76dNMCCyxxQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eiHoMaZrEfG76dNMCCyxxQ" id="(0.5,0.5)"/>
         </edges>
@@ -22737,6 +22737,9 @@
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ehWzMKZrEfG76dNMCCyxxQ" name="Net Power" outgoingEdges="_eh0tQKZrEfG76dNMCCyxxQ">
       <target xmi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup" href="Motor%20Grader.capella#78248830-2822-43a5-bb80-dfdceac8ccc5"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup" href="Motor%20Grader.capella#78248830-2822-43a5-bb80-dfdceac8ccc5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ehWzMaZrEfG76dNMCCyxxQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_PVG']/@style"/>
       </ownedStyle>
