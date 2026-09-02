@@ -57,7 +57,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']/@ownedRepresentations[name='Physical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg" href="Motor%20Grader.capella#2ea22b57-8d44-463c-84b7-25f4be3f5290"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XjhjIKbTEfGU16SEiulRTA" name="[PAB] Structure" repPath="#_XjcDkKbTEfGU16SEiulRTA" changeId="1788356289262">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XjhjIKbTEfGU16SEiulRTA" name="[PAB] Structure" repPath="#_XjcDkKbTEfGU16SEiulRTA" changeId="1788356382558">
         <eAnnotations xmi:type="description:DAnnotation" uid="_XjsiQKbTEfGU16SEiulRTA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XjsiQabTEfGU16SEiulRTA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XjsiQqbTEfGU16SEiulRTA" key="hide.computed.physical.links.filter" value="true"/>
@@ -24592,7 +24592,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_cEjeVqbTEfGU16SEiulRTA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_cEjeUabTEfGU16SEiulRTA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cEjeUqbTEfGU16SEiulRTA" x="340" y="70" width="501" height="368"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cEjeUqbTEfGU16SEiulRTA" x="270" y="70" width="571" height="368"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_Xjr7MabTEfGU16SEiulRTA"/>
       </data>
