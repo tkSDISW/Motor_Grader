@@ -3692,6 +3692,20 @@
               name="Steering Control Subsystem" abstractType="#7d432700-a735-464d-abd0-fa7e9fc025b5"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b3029359-1bad-4bec-8861-554a858a3ed4"
               name="Super Structure" abstractType="#d339fc83-d076-45c4-bf2b-aa7e96294bd1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8371a8a7-e77c-491b-bd82-1818f73ffc0f"
+              name="Power Management" abstractType="#b50ec2a4-1d5d-439c-abc3-6d82c23eefd1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4da28717-3fc0-4b5f-9740-4f2031f63ad9"
+              name="Machine Motion Control" abstractType="#a10cfaa3-ba83-4d5a-97e3-97ab5be1cf76"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35e013fd-3c48-42f2-be76-86932d38dd3a"
+              name="Grade &amp; Work Tool Management" abstractType="#8998311f-a8f9-41b9-ba49-b232d58654a4"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b09dce4b-3935-47f9-a5bf-b62646f251b9"
+              name="Variable Accessory Management" abstractType="#6b3b8e60-747e-49cc-b7cd-98a40434d931"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3f6c8e2a-42a7-46eb-bbd8-e81774ad1cb4"
+              name="Information Solutions" abstractType="#ebc486a4-f662-4f29-8f54-8fbbe84cd319"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="77b85139-557e-4858-8896-cea343e127cf"
+              name="Operator Interface System" abstractType="#5523aba1-c2fa-4e1e-baa2-7d467639eb8b"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="76a242af-bff1-4d87-965c-bac928153608"
+              name="Service &amp; Support Management" abstractType="#ab993543-40ed-44e6-b30c-d24dcc986de4"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="e00b9021-bce5-466a-b835-347ca1adece5" targetElement="#648848bc-d6f2-4fe7-979f-18f5305e6929"
               sourceElement="#d0bfdd60-f997-4091-a612-d66cdc5bb039"/>
@@ -4121,6 +4135,27 @@
                   sourceElement="#fcc70ff8-eb86-48b8-a27e-7e891a2eea7e"/>
             </ownedFeatures>
           </ownedLogicalComponents>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="ab993543-40ed-44e6-b30c-d24dcc986de4" description="Essential/logical grouping - manages maintenance and service access regardless of implementing technology. Currently realized by Service Interface (Incarnation-level)."
+              name="Service &amp; Support Management"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="5523aba1-c2fa-4e1e-baa2-7d467639eb8b" description="Essential/logical grouping - provides the operator&amp;#x27;s control and feedback interface regardless of implementing technology. Currently realized by Operator Cabin (Incarnation-level)."
+              name="Operator Interface System"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="ebc486a4-f662-4f29-8f54-8fbbe84cd319" description="Essential/logical grouping - manages machine telemetry, diagnostics, and status/health monitoring regardless of implementing technology. Currently realized by Telematics Module and Super Structure (Incarnation-level)."
+              name="Information Solutions"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="6b3b8e60-747e-49cc-b7cd-98a40434d931" description="Essential/logical grouping - manages optional work tool attachments (ripper/scarifier, snow wing) regardless of implementing technology. Currently realized by Attachment Subsystem (Incarnation-level)."
+              name="Variable Accessory Management"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="8998311f-a8f9-41b9-ba49-b232d58654a4" description="Essential/logical grouping - manages blade/moldboard positioning and grade correction regardless of implementing technology. Currently realized by Blade System and Grade Control System (Incarnation-level)."
+              name="Grade &amp; Work Tool Management"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="a10cfaa3-ba83-4d5a-97e3-97ab5be1cf76" description="Essential/logical grouping - controls the machine&amp;#x27;s direction and steering regardless of implementing technology. Currently realized by Steering System, Steering Control Subsystem, and Direction Control System (Incarnation-level)."
+              name="Machine Motion Control"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="b50ec2a4-1d5d-439c-abc3-6d82c23eefd1" description="Essential/logical grouping - manages and distributes power to the machine regardless of implementing technology. Currently realized by Engine and Powertrain System and Hydraulic System (Incarnation-level)."
+              name="Power Management"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="d339fc83-d076-45c4-bf2b-aa7e96294bd1" name="Super Structure">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
