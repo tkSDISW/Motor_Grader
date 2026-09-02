@@ -1113,15 +1113,15 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="d2f9a464-b01e-46ad-8e93-254ed60afd2a" name="Steer Machine" description="Grader Operator activity - control machine steering and articulation while grading.">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="46657e85-609f-491b-be27-cf5d8504e0fa" name="outSteering Input"/>
+                id="46657e85-609f-491b-be27-cf5d8504e0fa" name="outSteering Input (Grade Road Surface)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="a65d6a0b-c620-44e3-a657-ceb56280fe07" name="outSteering Input"/>
+                id="a65d6a0b-c620-44e3-a657-ceb56280fe07" name="outSteering Input (Shape Shoulder)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="29d478d8-68b6-440b-8432-fa8e29ae699d" name="outSteering Input"/>
+                id="29d478d8-68b6-440b-8432-fa8e29ae699d" name="outSteering Input (Shape Slope)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="3be3896f-400f-4df3-ab56-09687c7d8e3c" name="outSteering Input"/>
+                id="3be3896f-400f-4df3-ab56-09687c7d8e3c" name="outSteering Input (Rip and Scarify Hardened Ground)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="45daa29e-16fd-4189-b433-e6deaf9c1f8c" name="outSteering Input"/>
+                id="45daa29e-16fd-4189-b433-e6deaf9c1f8c" name="outSteering Input (Clear Snow)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="46d1b8c0-ff7b-4206-9716-e9a2c31a4805" name="outSteering Feedback"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -1132,15 +1132,15 @@
               id="205b42b5-ea09-4db9-9d3d-d8fdd5c0aced" name="Control Blade Position"
               description="Grader Operator activity - adjust moldboard/blade angle, pitch, and depth to achieve desired grade.">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="45fff8e8-39a7-42dd-843c-e723f815612a" name="outBlade Position Input"/>
+                id="45fff8e8-39a7-42dd-843c-e723f815612a" name="outBlade Position Input (Grade Road Surface)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="e53db896-e1ad-42b2-9c05-f4abcb3b34a6" name="outBlade Position Input"/>
+                id="e53db896-e1ad-42b2-9c05-f4abcb3b34a6" name="outBlade Position Input (Shape Shoulder)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="166f7ef1-ecdf-4146-8aef-adabb08c64c6" name="outBlade Position Input"/>
+                id="166f7ef1-ecdf-4146-8aef-adabb08c64c6" name="outBlade Position Input (Shape Slope)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="9d0950f4-57e7-4209-84d4-3a889e22dc92" name="outBlade Position Input"/>
+                id="9d0950f4-57e7-4209-84d4-3a889e22dc92" name="outBlade Position Input (Rip and Scarify Hardened Ground)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="3b880432-ac19-46c6-a001-d94c526bf9a5" name="outBlade Position Input"/>
+                id="3b880432-ac19-46c6-a001-d94c526bf9a5" name="outBlade Position Input (Clear Snow)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="38a1c4e9-2a98-4389-ac6f-892b4c46fd3f" name="outBlade Position Feedback"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -1151,15 +1151,15 @@
               id="4cff6595-3087-4e4a-87c9-ce2376b36778" name="Control Direction of Travel"
               description="Grader Operator activity - select forward/reverse gear and control direction of travel while grading (9F/6R powershift transmission).">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="b1c9b441-6aae-4c99-890d-5a7bbe48f3aa" name="outDirection Input"/>
+                id="b1c9b441-6aae-4c99-890d-5a7bbe48f3aa" name="outDirection Input (Grade Road Surface)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="e3336269-0cf7-4d98-ad75-f9537a6c10db" name="outDirection Input"/>
+                id="e3336269-0cf7-4d98-ad75-f9537a6c10db" name="outDirection Input (Shape Shoulder)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="86858a79-fd9f-4f71-971c-c290cafdbce9" name="outDirection Input"/>
+                id="86858a79-fd9f-4f71-971c-c290cafdbce9" name="outDirection Input (Shape Slope)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="4fba24bd-8fcc-47f2-b3e4-d2616cc8aef2" name="outDirection Input"/>
+                id="4fba24bd-8fcc-47f2-b3e4-d2616cc8aef2" name="outDirection Input (Rip and Scarify Hardened Ground)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="52cb4a02-cd4a-4fa6-b5f5-b8c67ab3aadf" name="outDirection Input"/>
+                id="52cb4a02-cd4a-4fa6-b5f5-b8c67ab3aadf" name="outDirection Input (Clear Snow)"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="22b5a730-dfd5-4952-a0c2-d7765ab8b2ff" name="outDirection Feedback"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -3834,8 +3834,8 @@
               id="5523aba1-c2fa-4e1e-baa2-7d467639eb8b" name="Operator Interface System"
               description="Essential/logical grouping - provides the operator&amp;#x27;s control and feedback interface regardless of implementing technology. Currently realized by Operator Cabin (Incarnation-level)."/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="ebc486a4-f662-4f29-8f54-8fbbe84cd319" name="Information Solutions"
-              description="Essential/logical grouping - manages machine telemetry, diagnostics, and status/health monitoring regardless of implementing technology. Currently realized by Telematics Module and Super Structure (Incarnation-level)."/>
+              id="ebc486a4-f662-4f29-8f54-8fbbe84cd319" name="Information Solutions (DUPLICATE - pending deletion)"
+              description="Orphaned duplicate created during the L5/Essential rework - the original Telematics Module component was renamed to &amp;#x27;Information Solutions&amp;#x27; instead. This empty duplicate should be deleted in Capella Studio (no delete capability available via this tool)."/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="8998311f-a8f9-41b9-ba49-b232d58654a4" name="Grade &amp; Work Tool Management"
               description="Essential/logical grouping - manages blade/moldboard positioning and grade correction regardless of implementing technology. Currently realized by Blade System and Grade Control System (Incarnation-level).">
