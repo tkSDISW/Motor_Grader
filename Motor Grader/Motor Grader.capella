@@ -3684,8 +3684,6 @@
               name="Machine Motion Control" abstractType="#a10cfaa3-ba83-4d5a-97e3-97ab5be1cf76"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="35e013fd-3c48-42f2-be76-86932d38dd3a"
               name="Grade &amp; Work Tool Management" abstractType="#8998311f-a8f9-41b9-ba49-b232d58654a4"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3f6c8e2a-42a7-46eb-bbd8-e81774ad1cb4"
-              name="Information Solutions" abstractType="#ebc486a4-f662-4f29-8f54-8fbbe84cd319"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="77b85139-557e-4858-8896-cea343e127cf"
               name="Operator Interface System" abstractType="#5523aba1-c2fa-4e1e-baa2-7d467639eb8b"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="76a242af-bff1-4d87-965c-bac928153608"
@@ -3833,9 +3831,6 @@
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="5523aba1-c2fa-4e1e-baa2-7d467639eb8b" name="Operator Interface System"
               description="Essential/logical grouping - provides the operator&amp;#x27;s control and feedback interface regardless of implementing technology. Currently realized by Operator Cabin (Incarnation-level)."/>
-          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="ebc486a4-f662-4f29-8f54-8fbbe84cd319" name="Information Solutions (DUPLICATE - pending deletion)"
-              description="Orphaned duplicate created during the L5/Essential rework - the original Telematics Module component was renamed to &amp;#x27;Information Solutions&amp;#x27; instead. This empty duplicate should be deleted in Capella Studio (no delete capability available via this tool)."/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="8998311f-a8f9-41b9-ba49-b232d58654a4" name="Grade &amp; Work Tool Management"
               description="Essential/logical grouping - manages blade/moldboard positioning and grade correction regardless of implementing technology. Currently realized by Blade System and Grade Control System (Incarnation-level).">
