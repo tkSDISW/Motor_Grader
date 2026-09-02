@@ -3498,7 +3498,14 @@
               sourceElement="#54312185-cce5-4d44-9a88-8e36c3032c16"/>
         </ownedComponentExchanges>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-            id="d0bfdd60-f997-4091-a612-d66cdc5bb039" name="Motor Grader">
+            id="d0bfdd60-f997-4091-a612-d66cdc5bb039" name="Motor Grader" appliedPropertyValueGroups="#b0f4899c-a284-4011-9378-c3166bae864a">
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="b0f4899c-a284-4011-9378-c3166bae864a" name="Operating Weight">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="46ef7115-26a1-44da-b8b7-4c11ada6a1ba" name="units" value="kg"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                id="115d4e71-c9b8-49ad-ac35-efd7bd8fdb70" name="value" value="16831"/>
+          </ownedPropertyValueGroups>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="fb2088f8-d33b-45c1-a069-eedfc8b388bb" targetElement="#4fd006ef-9ec4-4eef-a17d-52fbd7590be6"
               sourceElement="#d0bfdd60-f997-4091-a612-d66cdc5bb039"/>
@@ -3754,7 +3761,43 @@
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="378ae3a9-734c-4e1e-a9fa-6f7c125ad10a" name="Engine and Powertrain System"
-              description="Cat C7.1/C4.4 engine, powershift transmission, torque converter, and electronic throttle control. Provides power and drive to all other systems (steering, hydraulics, blade actuation).">
+              description="Cat C7.1/C4.4 engine, powershift transmission, torque converter, and electronic throttle control. Provides power and drive to all other systems (steering, hydraulics, blade actuation)."
+              appliedPropertyValueGroups="#78248830-2822-43a5-bb80-dfdceac8ccc5 #4d5ad94d-0c07-490c-90ed-b86c4b92bf3b #cbe56c38-cd3f-489a-b699-91a62550824f #0108a3d0-57f5-4d90-bad8-e041067c30b5 #40508c2e-e252-43ea-82d7-ed856091236d">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="78248830-2822-43a5-bb80-dfdceac8ccc5" name="Net Power">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="9a676630-b22d-48fe-8af0-4fdb157debd1" name="units" value="kW"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="292765c7-160a-4a5e-a3d2-e025a977b37b" name="value" value="128"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="4d5ad94d-0c07-490c-90ed-b86c4b92bf3b" name="Forward Gears">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="5c6dca6c-d098-44f8-bbef-92e38987cc5c" name="units" value="count"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="59935544-5599-467f-906c-5136070f9bfb" name="value" value="9"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="cbe56c38-cd3f-489a-b699-91a62550824f" name="Reverse Gears">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="2279c5ad-e23d-4648-8510-a921a7882997" name="units" value="count"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="47736f1d-681d-4511-acb6-7e5e2b012ce0" name="value" value="6"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="0108a3d0-57f5-4d90-bad8-e041067c30b5" name="Fuel Tank Capacity">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="11633294-b6de-4b5d-b3aa-ce045582c638" name="units" value="L"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="56594512-b966-430d-b9c2-e1400f27340b" name="value" value="246"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="40508c2e-e252-43ea-82d7-ed856091236d" name="DEF Tank Capacity">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="ddc26cfd-1842-4669-ab37-6774da90b71d" name="units" value="L"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                  id="25c14076-0d0b-4f2b-8ec6-3a20ecedf519" name="value" value="11"/>
+            </ownedPropertyValueGroups>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="c9165b6b-604c-4881-8017-eaf45d9d3b98" targetElement="#a255dab8-17dd-4bec-b762-bfd6ad2dcdaa"
                 sourceElement="#378ae3a9-734c-4e1e-a9fa-6f7c125ad10a"/>
@@ -3870,7 +3913,17 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="59dd2973-14d8-4a78-a847-9898d534995d" name="Blade System" description="Drawbar-circle-moldboard mechanism: lift cylinders, circle center shift cylinder, moldboard side-shift cylinder, blade tip cylinder, and circle drive. Realizes Control Blade Position and Accept Blade Position Adjustment.">
+              id="59dd2973-14d8-4a78-a847-9898d534995d" name="Blade System" description="Drawbar-circle-moldboard mechanism: lift cylinders, circle center shift cylinder, moldboard side-shift cylinder, blade tip cylinder, and circle drive. Realizes Control Blade Position and Accept Blade Position Adjustment."
+              appliedPropertyValueGroups="#5d7359b8-03ec-4788-99d7-96faba1a2461">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="5d7359b8-03ec-4788-99d7-96faba1a2461" name="Moldboard Width">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="49f8c3d6-4441-42ef-b93e-82bca99332f7" name="units" value="m"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="592aba48-669e-4100-b204-bd0553cba69f" name="value" value="3.7"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="176b743e-4b10-4fc0-be8e-685f9ad85e23" name="max_value" value="4.31"/>
+            </ownedPropertyValueGroups>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="9ce08f78-3b77-488d-a1b4-d362cc7313d2" targetElement="#d768b250-00f2-47aa-b0e9-11064e51a55e"
                 sourceElement="#59dd2973-14d8-4a78-a847-9898d534995d"/>
