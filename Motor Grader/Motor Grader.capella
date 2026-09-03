@@ -5684,16 +5684,6 @@
             <ownedExtensions xsi:type="smw:TcItemRevision" id="07876e8c-6740-4cdd-b0c3-63614fc7ea74"
                 tcuid="DOOAQsb0Z3T1BC" stableTcId="DSAAQsb0Z3T1BC"/>
           </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="77b85139-557e-4858-8896-cea343e127cf"
-              name="Operator Interface System" abstractType="#5523aba1-c2fa-4e1e-baa2-7d467639eb8b">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="4e49e8f6-8aed-4b8e-a9c3-7f95f9eea8e3"
-                tcuid="TSMAQsb0Z3T1BC" stableTcId="TSOAQsb0Z3T1BC"/>
-          </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="76a242af-bff1-4d87-965c-bac928153608"
-              name="Service &amp; Support Management" abstractType="#ab993543-40ed-44e6-b30c-d24dcc986de4">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="7eca1526-8814-45f2-aa78-87234e3c31b7"
-                tcuid="jVCAQsb0Z3T1BC" stableTcId="jVEAQsb0Z3T1BC"/>
-          </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="42b225d4-f27d-4595-ac65-49e05302ae4a" name="CP 4" orientation="OUT"
               kind="FLOW">
@@ -5943,20 +5933,6 @@
                     tcuid="TUBAQsb0Z3T1BC" stableTcId="TUBAQsb0Z3T1BC"/>
               </ownedPortRealizations>
             </ownedFeatures>
-          </ownedLogicalComponents>
-          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="ab993543-40ed-44e6-b30c-d24dcc986de4" name="Service &amp; Support Management"
-              description="Essential/logical grouping - manages maintenance and service access regardless of implementing technology. Currently realized by Service Interface (Incarnation-level).">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="4ff2356b-173e-49d8-acbc-d516d8925aa4"
-                tcuid="wXOAQsb0Z3T1BC" stableTcId="AjOAQsb0Z3T1BC" itemId="005039"
-                revisionId="A"/>
-          </ownedLogicalComponents>
-          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="5523aba1-c2fa-4e1e-baa2-7d467639eb8b" name="Operator Interface System"
-              description="Essential/logical grouping - provides the operator&amp;#x27;s control and feedback interface regardless of implementing technology. Currently realized by Operator Cabin (Incarnation-level).">
-            <ownedExtensions xsi:type="smw:TcItemRevision" id="5cec0f1e-44aa-442e-8820-e97b02fd2691"
-                tcuid="gzAAQsb0Z3T1BC" stableTcId="w_AAQsb0Z3T1BC" itemId="005031"
-                revisionId="A"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="8998311f-a8f9-41b9-ba49-b232d58654a4" name="Grade &amp; Work Tool Management"
