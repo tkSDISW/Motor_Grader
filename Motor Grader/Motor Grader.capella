@@ -9609,6 +9609,22 @@
             <ownedExtensions xsi:type="smw:TcItemRevision" id="befe9731-fe08-48ae-ab03-fe799ae67b00"
                 tcuid="wLEAQsb0Z3T1BC" stableTcId="AXEAQsb0Z3T1BC" itemId="005095"
                 revisionId="A"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="17757932-9445-4b33-a999-0a4b273a592d"
+                name="Engine" abstractType="#44578df9-a042-4287-a1e0-c7bc37732a60"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="10210e94-e37c-47a6-8117-89cf735cbfe9"
+                name="Transmission" abstractType="#d3d85364-f5ae-4f0c-866e-3b7cab704c79"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dc39e2fa-2f4a-42e4-aa10-b26011e5b793"
+                name="Controller" abstractType="#72ac8946-92fa-4fd8-b570-d15bbb963fd8"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="17348aa5-aaa0-4a92-a873-5120253e5518"
+                name="Bus" abstractType="#27ff7b5f-d2ae-47a5-9bf1-df80182005ac"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="44578df9-a042-4287-a1e0-c7bc37732a60" name="Engine" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="d3d85364-f5ae-4f0c-866e-3b7cab704c79" name="Transmission" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="72ac8946-92fa-4fd8-b570-d15bbb963fd8" name="Controller" nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="27ff7b5f-d2ae-47a5-9bf1-df80182005ac" name="Bus" nature="NODE"/>
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
