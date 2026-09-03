@@ -5645,7 +5645,7 @@
             </ownedComponentExchangeFunctionalExchangeAllocations>
           </ownedComponentExchanges>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8def894f-423c-41fd-8bd3-e83a7c4caff5"
-              name="Operatior Interface System" abstractType="#f5a146f0-7ee0-4374-b852-9737fa37dd3e">
+              name="Operator Interface System" abstractType="#f5a146f0-7ee0-4374-b852-9737fa37dd3e">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="90d28a84-1194-4992-a788-89f502baabdc"
                 tcuid="T5GAQsb0Z3T1BC" stableTcId="T5IAQsb0Z3T1BC"/>
           </ownedFeatures>
@@ -5660,7 +5660,7 @@
                 tcuid="DCIAQsb0Z3T1BC" stableTcId="DCKAQsb0Z3T1BC"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c35fddb0-422f-4e6d-8c26-22f91316b5ad"
-              name="Service and Support Managment" abstractType="#647dd15a-bde4-4b76-a95d-aa3fc4fa471a">
+              name="Service and Support Management" abstractType="#647dd15a-bde4-4b76-a95d-aa3fc4fa471a">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="41a4a222-2dc3-444b-b472-e378d75e7a9f"
                 tcuid="TuIAQsb0Z3T1BC" stableTcId="TuKAQsb0Z3T1BC"/>
           </ownedFeatures>
@@ -5707,7 +5707,7 @@
                 tcuid="jZKAQsb0Z3T1BC" stableTcId="jZKAQsb0Z3T1BC"/>
           </ownedComponentRealizations>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="f5a146f0-7ee0-4374-b852-9737fa37dd3e" name="Operatior Interface System"
+              id="f5a146f0-7ee0-4374-b852-9737fa37dd3e" name="Operator Interface System"
               description="Houses the operator interface: steering wheel/lever or joystick controls, blade position controls, Cat Grade display/HMI, seat, and cab controls. Realizes operator-facing functions (Steer Machine, Control Blade Position, Monitor Grade Quality, Control Direction of Travel).">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="6b588be7-423f-4ba8-bf8b-81e0854cd804"
                 tcuid="grCAQsb0Z3T1BC" stableTcId="w2CAQsb0Z3T1BC" itemId="005028"
@@ -5920,7 +5920,7 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="647dd15a-bde4-4b76-a95d-aa3fc4fa471a" name="Service and Support Managment"
+              id="647dd15a-bde4-4b76-a95d-aa3fc4fa471a" name="Service and Support Management"
               description="Grouped service access points (filters, fluid check points, diagnostic connector) used during scheduled maintenance. Realizes Accept Service Request.">
             <ownedExtensions xsi:type="smw:TcItemRevision" id="f7aa8cc9-22b0-4f2b-82d0-39c63eff867d"
                 tcuid="wPKAQsb0Z3T1BC" stableTcId="AbKAQsb0Z3T1BC" itemId="005037"

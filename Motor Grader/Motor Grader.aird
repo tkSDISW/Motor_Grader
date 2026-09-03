@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_ROwB4KJ_EfG76dNMCCyxxQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HN2-UKX5EfG76dNMCCyxxQ" name="[LAB] Structure" repPath="#_HN1wMKX5EfG76dNMCCyxxQ" changeId="1788409222275">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_HN2-UKX5EfG76dNMCCyxxQ" name="[LAB] Structure" repPath="#_HN1wMKX5EfG76dNMCCyxxQ" changeId="1788409889983">
         <eAnnotations xmi:type="description:DAnnotation" uid="_HN6os6X5EfG76dNMCCyxxQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HN6otKX5EfG76dNMCCyxxQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HN6otaX5EfG76dNMCCyxxQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -19010,7 +19010,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MsysMqX5EfG76dNMCCyxxQ" name="Service and Support Managment" outgoingEdges="_E0KaAKcgEfGKFrsjbg9New">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MsysMqX5EfG76dNMCCyxxQ" name="Service and Support Management" outgoingEdges="_E0KaAKcgEfGKFrsjbg9New">
         <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Motor%20Grader.capella#c35fddb0-422f-4e6d-8c26-22f91316b5ad"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Motor%20Grader.capella#c35fddb0-422f-4e6d-8c26-22f91316b5ad"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="Motor%20Grader.capella#647dd15a-bde4-4b76-a95d-aa3fc4fa471a"/>
@@ -19059,7 +19059,7 @@
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']/@subNodeMappings[name='LAB%20Logical%20Function']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Msw3CqX5EfG76dNMCCyxxQ" name="Operatior Interface System" outgoingEdges="_LWcbTKcgEfGKFrsjbg9New _NYH_OKcgEfGKFrsjbg9New">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Msw3CqX5EfG76dNMCCyxxQ" name="Operator Interface System" outgoingEdges="_LWcbTKcgEfGKFrsjbg9New _NYH_OKcgEfGKFrsjbg9New">
         <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Motor%20Grader.capella#8def894f-423c-41fd-8bd3-e83a7c4caff5"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Motor%20Grader.capella#8def894f-423c-41fd-8bd3-e83a7c4caff5"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="Motor%20Grader.capella#f5a146f0-7ee0-4374-b852-9737fa37dd3e"/>
